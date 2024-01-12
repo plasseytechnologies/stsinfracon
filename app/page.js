@@ -1,113 +1,245 @@
-import Image from 'next/image'
+import AboutCompany from "@/components/aboutCompany/AboutCompany";
+import CompanyCTA from "@/components/companyCTA/CompanyCTA";
+import OurGallery from "@/components/gallery/OurGallery";
+import HeroBanner from "@/components/hero/HeroBanner";
+import LatestNews from "@/components/latestNews/LatestNews";
+import LatestProject from "@/components/latestProject/LatestProject";
+import NewsLetter from "@/components/newsLetter/NewsLetter";
+import OurClients from "@/components/ourClients/OurClients";
+import WeOffer from "@/components/weOffer/WeOffer";
 
-export default function Home() {
+const Home = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div>
+      <HeroBanner />
+      {/* About Company*/}
+      {/* <AboutCompany /> */}
+      {/* What we offer*/}
+      <WeOffer />
+      {/* Section CTA*/}*
+      <CompanyCTA />
+      {/* Mining machinery*/}
+      <OurGallery />
+      {/* Latest Project*/}
+      <LatestProject />
+      {/* Section*/}
+      <OurClients />
+      {/* Section*/}
+      <section className="section section-xl bg-default text-md-left">
+        <div className="container">
+          <div className="row row-30">
+            <div className="col-md-5 col-lg-4 col-xl-3">
+              <div className="box-team">
+                <h3 className="oh-desktop">
+                  <span className="d-inline-block wow slideInUp">Our team</span>
+                </h3>
+                <h6
+                  className="title-style-1 wow fadeInLeft"
+                  data-wow-delay=".1s"
+                >
+                  Professional Civil engineering
+                </h6>
+                <p className="wow fadeInRight" data-wow-delay=".2s">
+                  We are a team of dedicated and professional engineers and
+                  project managers ready to help.
+                </p>
+                <div className="group-sm oh-desktop">
+                  <div className="button-style-1 wow slideInLeft">
+                    <span className="icon mdi mdi-email-outline" />
+                    <span className="button-style-1-text">
+                      <a href="contacts.html">Contact us</a>
+                    </span>
+                  </div>
+                  <div className="wow slideInRight">
+                    <div className="owl-custom-nav" id="owl-custom-nav-1" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-7 col-lg-8 col-xl-9">
+              <div
+                className="owl-carousel owl-style-5"
+                data-items={1}
+                data-sm-items={2}
+                data-lg-items={3}
+                data-margin={30}
+                data-autoplay="false"
+                data-animation-in="fadeIn"
+                data-animation-out="fadeOut"
+                data-navigation-class="#owl-custom-nav-1"
+              >
+                {/* Team Modern*/}
+                <article className="team-modern">
+                  <a className="team-modern-figure" href="#">
+                    <img
+                      src="/assets/images/team-18-270x236.jpg"
+                      alt
+                      width={270}
+                      height={236}
+                    />
+                  </a>
+                  <div className="team-modern-caption">
+                    <h6 className="team-modern-name">
+                      <a href="#">Frank McMillan</a>
+                    </h6>
+                    <div className="team-modern-status">
+                      CEO, Managing Director
+                    </div>
+                    <ul className="list-inline team-modern-social-list">
+                      <li>
+                        <a className="icon mdi mdi-facebook" href="#" />
+                      </li>
+                      <li>
+                        <a className="icon mdi mdi-twitter" href="#" />
+                      </li>
+                      <li>
+                        <a className="icon mdi mdi-instagram" href="#" />
+                      </li>
+                      <li>
+                        <a className="icon mdi mdi-google-plus" href="#" />
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+                {/* Team Modern*/}
+                <article className="team-modern">
+                  <a className="team-modern-figure" href="#">
+                    <img
+                      src="/assets/images/team-19-270x236.jpg"
+                      alt
+                      width={270}
+                      height={236}
+                    />
+                  </a>
+                  <div className="team-modern-caption">
+                    <h6 className="team-modern-name">
+                      <a href="#">John Smith</a>
+                    </h6>
+                    <div className="team-modern-status">
+                      Construction Manager
+                    </div>
+                    <ul className="list-inline team-modern-social-list">
+                      <li>
+                        <a className="icon mdi mdi-facebook" href="#" />
+                      </li>
+                      <li>
+                        <a className="icon mdi mdi-twitter" href="#" />
+                      </li>
+                      <li>
+                        <a className="icon mdi mdi-instagram" href="#" />
+                      </li>
+                      <li>
+                        <a className="icon mdi mdi-google-plus" href="#" />
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+                {/* Team Modern*/}
+                <article className="team-modern">
+                  <a className="team-modern-figure" href="#">
+                    <img
+                      src="/assets/images/team-3-270x236.jpg"
+                      alt
+                      width={270}
+                      height={236}
+                    />
+                  </a>
+                  <div className="team-modern-caption">
+                    <h6 className="team-modern-name">
+                      <a href="#">Ben Wilson</a>
+                    </h6>
+                    <div className="team-modern-status">Estimating Manager</div>
+                    <ul className="list-inline team-modern-social-list">
+                      <li>
+                        <a className="icon mdi mdi-facebook" href="#" />
+                      </li>
+                      <li>
+                        <a className="icon mdi mdi-twitter" href="#" />
+                      </li>
+                      <li>
+                        <a className="icon mdi mdi-instagram" href="#" />
+                      </li>
+                      <li>
+                        <a className="icon mdi mdi-google-plus" href="#" />
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+                {/* Team Modern*/}
+                <article className="team-modern">
+                  <a className="team-modern-figure" href="#">
+                    <img
+                      src="/assets/images/team-20-270x236.jpg"
+                      alt
+                      width={270}
+                      height={236}
+                    />
+                  </a>
+                  <div className="team-modern-caption">
+                    <h6 className="team-modern-name">
+                      <a href="#">Ben Fitzgerald</a>
+                    </h6>
+                    <div className="team-modern-status">Quantity Surveyor</div>
+                    <ul className="list-inline team-modern-social-list">
+                      <li>
+                        <a className="icon mdi mdi-facebook" href="#" />
+                      </li>
+                      <li>
+                        <a className="icon mdi mdi-twitter" href="#" />
+                      </li>
+                      <li>
+                        <a className="icon mdi mdi-instagram" href="#" />
+                      </li>
+                      <li>
+                        <a className="icon mdi mdi-google-plus" href="#" />
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+                {/* Team Modern*/}
+                <article className="team-modern">
+                  <a className="team-modern-figure" href="#">
+                    <img
+                      src="/assets/images/team-21-270x236.jpg"
+                      alt
+                      width={270}
+                      height={236}
+                    />
+                  </a>
+                  <div className="team-modern-caption">
+                    <h6 className="team-modern-name">
+                      <a href="#">John Tuff</a>
+                    </h6>
+                    <div className="team-modern-status">
+                      Health &amp; Safety Manager
+                    </div>
+                    <ul className="list-inline team-modern-social-list">
+                      <li>
+                        <a className="icon mdi mdi-facebook" href="#" />
+                      </li>
+                      <li>
+                        <a className="icon mdi mdi-twitter" href="#" />
+                      </li>
+                      <li>
+                        <a className="icon mdi mdi-instagram" href="#" />
+                      </li>
+                      <li>
+                        <a className="icon mdi mdi-google-plus" href="#" />
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
+      {/* Suscribe to our newsletter*/}
+      <NewsLetter />
+      {/* <!-- Latest news--> */}
+      <LatestNews />
+    </div>
+  );
+};
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
-}
+export default Home;
