@@ -1,0 +1,15 @@
+[
+  { "offerName": "Metro ", "offerImage": "/assets/images/metro.jpg" },
+  { "offerName": "Medical", "offerImage": "/assets/images/docter.jpg" },
+  { "offerName": "Port", "offerImage": "/assets/images/port.jpg" },
+  { "offerName": "Road", "offerImage": "/assets/images/double-highway.jpg" },
+  { "offerName": "Wires", "offerImage": "/assets/images/wires.jpg" },
+  { "offerName": "Factory", "offerImage": "/assets/images/factory-night.jpg" },
+  { "offerName": "Bella", "offerImage": "/assets/images/bella.jpeg" },
+  {
+    "offerName": "Building",
+    "offerImage": "/assets/images/building-construction.jpg"
+  },
+  { "offerName": "Factory", "offerImage": "/assets/images/factory-day.jpg" },
+  { "offerName": "Roler", "offerImage": "/assets/images/roler.jpg" }
+]

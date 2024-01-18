@@ -1,13 +1,26 @@
-import React from "react";
+"use client";
+import { AllScriptLoad } from "@/constant/scriptFiles";
+import React, { useEffect } from "react";
+import ProjectData from "../../../constant/ProjectData.json";
+import Link from "next/link";
 
-const ProjectDetails = () => {
+const ProjectDetails = ({ params }) => {
+  const slug = params.slug[0];
+  useEffect(() => {
+    AllScriptLoad();
+  }, []);
+  const data = ProjectData.filter((item) => item.slug == slug);
+  const [projectsData] = data;
+
   return (
     <div className>
       <div>
         <section className="bg-gray-7">
           <div className="breadcrumbs-custom box-transform-wrap context-dark">
             <div className="container">
-              <h3 className="breadcrumbs-custom-title">Project Page</h3>
+              <h3 className="breadcrumbs-custom-title">
+                {projectsData?.category}
+              </h3>
               <div className="breadcrumbs-custom-decor" />
             </div>
             <div
@@ -20,10 +33,10 @@ const ProjectDetails = () => {
           <div className="container">
             <ul className="breadcrumbs-custom-path">
               <li>
-                <a href="index.html">Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <a href="projects.html">Projects</a>
+                <Link href="/projects">Projects</Link>
               </li>
               <li className="active">Project Page</li>
             </ul>
@@ -46,50 +59,18 @@ const ProjectDetails = () => {
                     data-for="#child-carousel-7"
                     data-slide-effect="true"
                   >
-                    <div className="item">
-                      <img
-                        src="/assets/images/project-5-670x477.jpg"
-                        alt
-                        width={670}
-                        height={477}
-                      />
-                      <div className="slick-project-caption">
-                        <div className="slick-project-title">Photo #1</div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <img
-                        src="/assets/images/project-6-670x477.jpg"
-                        alt
-                        width={670}
-                        height={477}
-                      />
-                      <div className="slick-project-caption">
-                        <div className="slick-project-title">Photo #2</div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <img
-                        src="/assets/images/project-7-670x477.jpg"
-                        alt
-                        width={670}
-                        height={477}
-                      />
-                      <div className="slick-project-caption">
-                        <div className="slick-project-title">Photo #3</div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <img
-                        src="/assets/images/project-8-670x477.jpg"
-                        alt
-                        width={670}
-                        height={477}
-                      />
-                      <div className="slick-project-caption">
-                        <div className="slick-project-title">Photo #4</div>
-                      </div>
-                    </div>
+                    {projectsData?.img?.map((img, i) => (
+                      <>
+                        <div className="item">
+                          <img src={img} alt width={670} height={477} />
+                          <div className="slick-project-caption">
+                            <div className="slick-project-title">
+                              Photo #{i + 1}
+                            </div>
+                          </div>
+                        </div>
+                      </>
+                    ))}
                   </div>
                   <div
                     className="slick-slider child-carousel"
@@ -102,109 +83,100 @@ const ProjectDetails = () => {
                     data-xl-items={4}
                     data-slide-to-scroll={1}
                   >
-                    <div className="item">
-                      <img
-                        src="/assets/images/project-5-670x477.jpg"
-                        alt
-                        width={670}
-                        height={477}
-                      />
-                    </div>
-                    <div className="item">
-                      <img
-                        src="/assets/images/project-6-670x477.jpg"
-                        alt
-                        width={670}
-                        height={477}
-                      />
-                    </div>
-                    <div className="item">
-                      <img
-                        src="/assets/images/project-7-670x477.jpg"
-                        alt
-                        width={670}
-                        height={477}
-                      />
-                    </div>
-                    <div className="item">
-                      <img
-                        src="/assets/images/project-8-670x477.jpg"
-                        alt
-                        width={670}
-                        height={477}
-                      />
-                    </div>
+                    {projectsData?.img.map((img) => (
+                      <>
+                        <div className="item">
+                          <img src={img} alt width={670} height={477} />
+                        </div>
+                      </>
+                    ))}
                   </div>
                 </div>
-                <div className="table-custom-responsive">
-                  <table className="table-custom table-custom-primary table-project">
-                    <tbody>
-                      <tr>
-                        <td>
-                          <span className="icon icon-26 mdi mdi-account" />
-                        </td>
-                        <td>
-                          <span>Client:</span> Smith Ltd.
-                        </td>
-                      </tr>
-                      <tr>
+                <div
+                  className="owl-carousel owl-style-3 dots-style-2"
+                  data-items={1}
+                  data-sm-items={1}
+                  data-lg-items={1}
+                  data-margin={30}
+                  data-autoplay="true"
+                  data-dots="true"
+                  data-animation-in="fadeIn"
+                  data-animation-out="fadeOut"
+                >
+                  {projectsData?.ourprojects?.map((item) => (
+                    <div className="table-custom-responsive">
+                      <table className="table-custom table-custom-primary table-project">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <span className={item?.icon} />
+                            </td>
+                            <td
+                              style={{ color: "black", fontWeight: "bolder" }}
+                            >
+                              {item?.project}
+                            </td>
+                          </tr>
+                          {/* <tr>
                         <td>
                           <span className="icon mdi mdi-calendar-today" />
                         </td>
                         <td>
                           <span>Year:</span> 2010
                         </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <span className="icon mdi mdi-map-marker" />
-                        </td>
-                        <td>
-                          <span>Location:</span> Los Angeles
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <span className="icon icon-28 mdi mdi-cash" />
-                        </td>
-                        <td>
-                          <span>Value:</span> $1.299.525,00
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+                      </tr> */}
+                          <tr>
+                            <td>
+                              <span className="icon mdi mdi-map-marker" />
+                            </td>
+                            <td
+                              style={{ color: "black", fontWeight: "bolder" }}
+                            >
+                              {item?.location}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span className="icon icon-28 mdi mdi-cash" />
+                            </td>
+                            <td
+                              style={{ color: "black", fontWeight: "bolder" }}
+                            >
+                              {item?.price} $
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  ))}
                 </div>
               </div>
               <div className="col-lg-6 col-xl-5">
                 <div className="project-page">
-                  <h4>Smith office center</h4>
-                  <p>
-                    Lanistas accelerare in secundus rugensis civitas! Heu,
-                    castus lamia! Eheu. Pol. Tolerare inciviliter ducunt ad
-                    ferox devirginato. Genetrixs accelerare in cubiculum!
-                    Dominas ortum in vasa! Gabaliums velum in tolosa!
-                  </p>
-                  <p>
-                    Primus repressors ducunt ad buxum. Fluctuis sunt boreass de
-                    audax lixa. Fidess messis! Navis volares, tanquam emeritis
-                    decor. Sunt quadraes resuscitabo noster, nobilis victrixes.
-                    Extum de germanus luna, locus silva! Habitios crescere,
-                    tanquam fatalis contencio. Cum lacta manducare, omnes
-                    bromiumes aperto salvus, bi-color parmaes. Rector, heuretes,
-                    et scutum. Abactuss messis in gratis chremisa!
-                  </p>
-                  <p>
-                    Nunquam experientia consilium. Ridetis vix ducunt ad fidelis
-                    devirginato. Demolitiones favere, tanquam rusticus extum.
-                    Coordinatae potuss, tanquam azureus accola.
-                  </p>
-                  <p>
-                    Finis de gratis historia, attrahendam vortex! Ubi est brevis
-                    guttus? Nunquam contactus nomen. Credere aliquando ducunt ad
-                    albus calcaria. Cannabiss manducare! Nunquam captis fides.
-                    Cur hydra ridetis? Cum abactus studere, omnes demolitionees
-                    attrahendam velox, alter extumes.
-                  </p>
+                  <h4>{projectsData?.category}</h4>
+                  <p>{projectsData?.introduction}</p>
+                  <h6 className="mt-3 text-[#ef7c14] font-bold">Expertise</h6>
+                  {Object.keys(projectsData?.expertise)?.map((key) => (
+                    <p key={key}>
+                      <strong>{key}</strong>:{" "}
+                      {projectsData.expertise[key].description}
+                      <ul>
+                        {projectsData.expertise[key].highlights &&
+                          projectsData.expertise[key].highlights.map(
+                            (highlight, i) => <li key={i}>{highlight}</li>
+                          )}
+                      </ul>
+                    </p>
+                  ))}
+                  <h6 className="my-3 text-[#ef7c14] font-bold">Impact</h6>
+                  <ul>
+                    {Object.keys(projectsData.impact).map((key) => (
+                      <li key={key}>
+                        <strong>{key}</strong>: {projectsData.impact[key]}
+                      </li>
+                    ))}
+                  </ul>
+
                   <div className="group-sm group-middle">
                     <span className="project-page-social-title">Share</span>
                     <div>
@@ -224,12 +196,12 @@ const ProjectDetails = () => {
                       </ul>
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="button button-lg button-primary button-winona"
-                    href="contacts.html"
+                    href="/contact"
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

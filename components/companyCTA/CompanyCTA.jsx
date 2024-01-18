@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useEffect } from "react";
 
 const CompanyCTA = () => {
@@ -22,13 +23,13 @@ const CompanyCTA = () => {
                   >
                     We provide efficient civil engineering solutions.
                   </p>
-                  <a
+                  <Link
                     className="button button-lg button-primary button-winona wow fadeInUp"
-                    href="services.html"
+                    href="/services"
                     data-wow-delay=".2s"
                   >
                     Our services
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

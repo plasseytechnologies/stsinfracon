@@ -1,7 +1,11 @@
+"use client";
 import Link from "next/link";
-import ProjectData from "../../components/jsonData/ProjectData.json";
+import ProjectData from "../../constant/ProjectData.json";
+import { useState } from "react";
 
 const Header = () => {
+  const [show, setShow] = useState(false);
+  const [show2, setShow2] = useState(true);
   return (
     <header className="section page-header">
       {/* RD Navbar*/}
@@ -71,13 +75,20 @@ const Header = () => {
                 </ul>
               </div>
             </div>
-            <div className="rd-navbar-inner">
+            <div
+              className={!show2 ? "rd-navbar-inner active" : "rd-navbar-inner"}
+            >
               {/* RD Navbar Panel*/}
               <div className="rd-navbar-panel">
-                {/* RD Navbar Toggle*/}
+                {/* RD Navbar Toggle Mobile*/}
                 <button
-                  className="rd-navbar-toggle toggle-original"
-                  data-rd-navbar-toggle=".rd-navbar-nav-wrap"
+                  className={
+                    show
+                      ? "rd-navbar-toggle toggle-original active"
+                      : "rd-navbar-toggle toggle-original"
+                  }
+                  // data-rd-navbar-toggle=".rd-navbar-nav-wrap"
+                  onClick={() => setShow(!show)}
                 >
                   <span />
                 </button>
@@ -93,7 +104,14 @@ const Header = () => {
                   </a>
                 </div>
               </div>
-              <div className="rd-navbar-right rd-navbar-nav-wrap toggle-original-elements">
+              {/* Mobile Navbar */}
+              <div
+                className={
+                  show
+                    ? "rd-navbar-right rd-navbar-nav-wrap toggle-original-elements active"
+                    : "rd-navbar-right rd-navbar-nav-wrap toggle-original-elements"
+                }
+              >
                 <div className="rd-navbar-aside d-xl-none">
                   <div className="rd-navbar-aside-inner">
                     <ul className="rd-navbar-contacts-2">
@@ -148,14 +166,14 @@ const Header = () => {
                     </li>
 
                     <li className="rd-nav-item">
-                      <Link href="about" className="rd-nav-link">
+                      <Link href="/about" className="rd-nav-link">
                         About us
                       </Link>
                     </li>
                     <li className="rd-nav-item  rd-navbar--has-dropdown rd-navbar-submenu">
-                      <a className="rd-nav-link" href="">
+                      <Link className="rd-nav-link" href="/projects">
                         Projects
-                      </a>
+                      </Link>
                       <span className="rd-navbar-submenu-toggle" />
                       <ul className="rd-menu rd-navbar-dropdown">
                         {/* RD Navbar Dropdown*/}
@@ -176,12 +194,13 @@ const Header = () => {
                       </ul>
                     </li>
                     <li className="rd-nav-item">
-                      <Link href="" className="rd-nav-link">
+                      <Link href="/services" className="rd-nav-link">
                         Services
                       </Link>
                     </li>
+
                     <li className="rd-nav-item">
-                      <Link href="" className="rd-nav-link">
+                      <Link href="/contact" className="rd-nav-link">
                         Contact
                       </Link>
                     </li>
@@ -215,11 +234,17 @@ const Header = () => {
                   </ul>
                 </div>
               </div>
+              {/* Mobile Project */}
               <div
-                className="rd-navbar-project-hamburger rd-navbar-project-hamburger-open rd-navbar-fixed-element-1"
+                className={
+                  show2
+                    ? "rd-navbar-project-hamburger rd-navbar-project-hamburger-open rd-navbar-fixed-element-1 active"
+                    : "rd-navbar-project-hamburger rd-navbar-project-hamburger-open rd-navbar-fixed-element-1"
+                }
                 data-multitoggle=".rd-navbar-inner"
                 data-multitoggle-blur=".rd-navbar-wrap"
                 data-multitoggle-isolate="data-multitoggle-isolate"
+                onClick={() => setShow2(!show2)}
               >
                 <div className="project-hamburger">
                   <span className="project-hamburger-arrow" />
@@ -231,10 +256,11 @@ const Header = () => {
                 <div className="rd-navbar-project-header">
                   <h5 className="rd-navbar-project-title">Latest Projects</h5>
                   <div
-                    className="rd-navbar-project-hamburger rd-navbar-project-hamburger-close"
-                    data-multitoggle=".rd-navbar-inner"
-                    data-multitoggle-blur=".rd-navbar-wrap"
-                    data-multitoggle-isolate="data-multitoggle-isolate"
+                    className="rd-navbar-project-hamburger rd-navbar-project-hamburger-close active"
+                    // data-multitoggle=".rd-navbar-inner"
+                    // data-multitoggle-blur=".rd-navbar-wrap"
+                    // data-multitoggle-isolate="data-multitoggle-isolate"
+                    onClick={() => setShow2(!show2)}
                   >
                     <div className="project-close">
                       <span />
@@ -245,132 +271,40 @@ const Header = () => {
                 <div className="rd-navbar-project-content rd-navbar-content">
                   <div>
                     <div className="row gutters-20" data-lightgallery="group">
-                      <div className="col-6">
-                        {/* Thumbnail Creative*/}
-                        <article className="thumbnail thumbnail-creative">
-                          <a
-                            href="./assets/images/project-1-1200x800-original.jpg"
-                            data-lightgallery="item"
-                          >
-                            <div className="thumbnail-creative-figure">
-                              <img
-                                src="./assets/images/project-1-195x164.jpg"
-                                alt
-                                width={195}
-                                height={164}
-                              />
-                            </div>
-                            <div className="thumbnail-creative-caption">
-                              <span className="icon thumbnail-creative-icon linearicons-magnifier" />
-                            </div>
-                          </a>
-                        </article>
-                      </div>
-                      <div className="col-6">
-                        {/* Thumbnail Creative*/}
-                        <article className="thumbnail thumbnail-creative">
-                          <a
-                            href="images/project-2-1200x800-original.jpg"
-                            data-lightgallery="item"
-                          >
-                            <div className="thumbnail-creative-figure">
-                              <img
-                                src="images/project-2-195x164.jpg"
-                                alt
-                                width={195}
-                                height={164}
-                              />
-                            </div>
-                            <div className="thumbnail-creative-caption">
-                              <span className="icon thumbnail-creative-icon linearicons-magnifier" />
-                            </div>
-                          </a>
-                        </article>
-                      </div>
-                      <div className="col-6">
-                        {/* Thumbnail Creative*/}
-                        <article className="thumbnail thumbnail-creative">
-                          <a
-                            href="images/project-3-1200x800-original.jpg"
-                            data-lightgallery="item"
-                          >
-                            <div className="thumbnail-creative-figure">
-                              <img
-                                src="images/project-3-195x164.jpg"
-                                alt
-                                width={195}
-                                height={164}
-                              />
-                            </div>
-                            <div className="thumbnail-creative-caption">
-                              <span className="icon thumbnail-creative-icon linearicons-magnifier" />
-                            </div>
-                          </a>
-                        </article>
-                      </div>
-                      <div className="col-6">
-                        {/* Thumbnail Creative*/}
-                        <article className="thumbnail thumbnail-creative">
-                          <a
-                            href="images/project-4-1200x800-original.jpg"
-                            data-lightgallery="item"
-                          >
-                            <div className="thumbnail-creative-figure">
-                              <img
-                                src="images/project-4-195x164.jpg"
-                                alt
-                                width={195}
-                                height={164}
-                              />
-                            </div>
-                            <div className="thumbnail-creative-caption">
-                              <span className="icon thumbnail-creative-icon linearicons-magnifier" />
-                            </div>
-                          </a>
-                        </article>
-                      </div>
-                      <div className="col-6">
-                        {/* Thumbnail Creative*/}
-                        <article className="thumbnail thumbnail-creative">
-                          <a
-                            href="images/project-5-1200x800-original.jpg"
-                            data-lightgallery="item"
-                          >
-                            <div className="thumbnail-creative-figure">
-                              <img
-                                src="images/project-5-195x164.jpg"
-                                alt
-                                width={195}
-                                height={164}
-                              />
-                            </div>
-                            <div className="thumbnail-creative-caption">
-                              <span className="icon thumbnail-creative-icon linearicons-magnifier" />
-                            </div>
-                          </a>
-                        </article>
-                      </div>
-                      <div className="col-6">
-                        {/* Thumbnail Creative*/}
-                        <article className="thumbnail thumbnail-creative">
-                          <a
-                            href="images/project-6-1200x800-original.jpg"
-                            data-lightgallery="item"
-                          >
-                            <div className="thumbnail-creative-figure">
-                              <img
-                                src="images/project-6-195x164.jpg"
-                                alt
-                                width={195}
-                                height={164}
-                              />
-                            </div>
-                            <div className="thumbnail-creative-caption">
-                              <span className="icon thumbnail-creative-icon linearicons-magnifier" />
-                            </div>
-                          </a>
-                        </article>
-                      </div>
+                      {ProjectData?.map((item) => (
+                        <>
+                          <div className="col-6">
+                            {/* Thumbnail Creative*/}
+                            <article className="thumbnail thumbnail-creative">
+                              <Link href={`/projects/${item?.slug}`}>
+                                <div className="thumbnail-creative-figure">
+                                  <img
+                                    src={item?.img[0]}
+                                    alt
+                                    width={195}
+                                    height={164}
+                                  />
+                                </div>
+                                <div className="thumbnail-creative-caption">
+                                  <span
+                                    className="icon linearicons-magnifier"
+                                    style={{
+                                      opacity: 1,
+                                      visibility: "hidden",
+                                      transform: "scale(0.5)",
+                                      fontSize: "36px",
+                                      color: "#ffffff",
+                                      transition: "all .3s ease",
+                                    }}
+                                  >
+                                    {item?.category}
+                                  </span>
+                                </div>
+                              </Link>
+                            </article>
+                          </div>
+                        </>
+                      ))}
                     </div>
                   </div>
                 </div>

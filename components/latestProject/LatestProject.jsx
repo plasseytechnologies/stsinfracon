@@ -1,5 +1,5 @@
 import React from "react";
-
+import HowCan from "../../constant/HowCan.json";
 const LatestProject = () => {
   return (
     <div>
@@ -7,7 +7,7 @@ const LatestProject = () => {
         <div className="container">
           <h3 className="oh-desktop">
             <span className="d-inline-block wow slideInDown">
-              Featured projects
+              How can we help you?
             </span>
           </h3>
           <div className="owl-style-4">
@@ -23,113 +23,30 @@ const LatestProject = () => {
               data-autoplay="true"
             >
               {/* Project Classic*/}
-              <article className="project-classic">
-                <a className="project-classic-figure" href="project-page.html">
-                  <img
-                    src="/assets/images/project-7-570x370.jpg"
-                    alt
-                    width={570}
-                    height={370}
-                  />
-                </a>
-                <div className="project-classic-caption">
-                  <h5 className="project-classic-title">
-                    <a href="project-page.html">
-                      Wilson &amp; Taylor Concert Hall and Entertainment Center
-                      (2021)
-                    </a>
-                  </h5>
-                  <div className="project-classic-location">
+              {HowCan?.map((item) => (
+                <>
+                  <article className="project-classic">
+                    <div className="project-classic-figure">
+                      <img src={item?.image} alt width={570} height={370} />
+                    </div>
+                    <div className="project-classic-caption">
+                      <h5 className="project-classic-title">
+                        <p>{item?.name}</p>
+                      </h5>
+                      {/* <div className="project-classic-location">
                     <span className="icon mdi mdi-map-marker" />
                     <span>florida</span>
-                  </div>
-                  <p className="project-classic-text">
+                  </div> */}
+                      {/* <p className="project-classic-text">
                     Civil Group provided engineering design and planning for
                     this project completed in early 2021.
-                  </p>
-                </div>
-              </article>
+                  </p> */}
+                    </div>
+                  </article>
+                </>
+              ))}
+
               {/* Project Classic*/}
-              <article className="project-classic">
-                <a className="project-classic-figure" href="project-page.html">
-                  <img
-                    src="/assets/images/project-8-570x370.jpg"
-                    alt
-                    width={570}
-                    height={370}
-                  />
-                </a>
-                <div className="project-classic-caption">
-                  <h5 className="project-classic-title">
-                    <a href="project-page.html">
-                      West Oakland Bridge: Project Design and Initial Planning
-                      (2021)
-                    </a>
-                  </h5>
-                  <div className="project-classic-location">
-                    <span className="icon mdi mdi-map-marker" />
-                    <span>California</span>
-                  </div>
-                  <p className="project-classic-text">
-                    Our team of engineers cooperated with Dynamics construction
-                    company on this ambitious project.
-                  </p>
-                </div>
-              </article>
-              {/* Project Classic*/}
-              <article className="project-classic">
-                <a className="project-classic-figure" href="project-page.html">
-                  <img
-                    src="/assets/images/project-7-570x370.jpg"
-                    alt
-                    width={570}
-                    height={370}
-                  />
-                </a>
-                <div className="project-classic-caption">
-                  <h5 className="project-classic-title">
-                    <a href="project-page.html">
-                      Wilson &amp; Taylor Concert Hall and Entertainment Center
-                      (2021)
-                    </a>
-                  </h5>
-                  <div className="project-classic-location">
-                    <span className="icon mdi mdi-map-marker" />
-                    <span>florida</span>
-                  </div>
-                  <p className="project-classic-text">
-                    Civil Group provided engineering design and planning for
-                    this project completed in early 2021.
-                  </p>
-                </div>
-              </article>
-              {/* Project Classic*/}
-              <article className="project-classic">
-                <a className="project-classic-figure" href="project-page.html">
-                  <img
-                    src="/assets/images/project-8-570x370.jpg"
-                    alt
-                    width={570}
-                    height={370}
-                  />
-                </a>
-                <div className="project-classic-caption">
-                  <h5 className="project-classic-title">
-                    <a href="project-page.html">
-                      West Oakland Bridge: Project Design and Initial Planning
-                      (2021)
-                    </a>
-                  </h5>
-                  <div className="project-classic-location">
-                    <span className="icon mdi mdi-map-marker" />
-                    <span>California</span>
-                  </div>
-                  <p className="project-classic-text">
-                    Our team of engineers cooperated with Dynamics construction
-                    company on this ambitious project.
-                  </p>
-                </div>
-              </article>
             </div>
           </div>
         </div>

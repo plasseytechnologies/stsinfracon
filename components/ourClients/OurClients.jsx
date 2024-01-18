@@ -104,7 +104,7 @@ const OurClients = ({ award }) => {
                     <div className="item">
                       <img
                         className="img-circle"
-                        src="/assets/images/team-5-83x83.jpg"
+                        src="/assets/images/chennai-metro-logo-150x150.jpg"
                         alt
                         width={83}
                         height={83}
@@ -113,7 +113,7 @@ const OurClients = ({ award }) => {
                     <div className="item">
                       <img
                         className="img-circle"
-                        src="/assets/images/team-6-83x83.jpg"
+                        src="/assets/images/kolkata-metro-logo-150x150.jpg"
                         alt
                         width={83}
                         height={83}
@@ -122,7 +122,7 @@ const OurClients = ({ award }) => {
                     <div className="item">
                       <img
                         className="img-circle"
-                        src="/assets/images/team-7-83x83.jpg"
+                        src="/assets/images/Rail-150x150.jpg"
                         alt
                         width={83}
                         height={83}
@@ -131,7 +131,7 @@ const OurClients = ({ award }) => {
                     <div className="item">
                       <img
                         className="img-circle"
-                        src="/assets/images/team-8-83x83.jpg"
+                        src="/assets/images/NHAI-150x150.jpg"
                         alt
                         width={83}
                         height={83}
@@ -149,7 +149,7 @@ const OurClients = ({ award }) => {
                     <div className="clients-classic">
                       <a className="clients-classic-figure" href="#">
                         <img
-                          src="/assets/images/clients-1-200x90.png"
+                          src="/assets/images/Delhi-Metro-150x150.jpg"
                           alt
                           width={200}
                           height={90}
@@ -161,7 +161,7 @@ const OurClients = ({ award }) => {
                     <div className="clients-classic">
                       <a className="clients-classic-figure" href="#">
                         <img
-                          src="/assets/images/clients-2-200x90.png"
+                          src="/assets/images/kolkata-metro-logo-150x150.jpg"
                           alt
                           width={200}
                           height={90}
@@ -175,7 +175,7 @@ const OurClients = ({ award }) => {
                     <div className="clients-classic">
                       <a className="clients-classic-figure" href="#">
                         <img
-                          src="/assets/images/clients-3-200x90.png"
+                          src="/assets/images/NHAI-150x150.jpg"
                           alt
                           width={200}
                           height={90}
@@ -187,7 +187,7 @@ const OurClients = ({ award }) => {
                     <div className="clients-classic">
                       <a className="clients-classic-figure" href="#">
                         <img
-                          src="/assets/images/clients-4-200x90.png"
+                          src="/assets/images/Rail-150x150.jpg"
                           alt
                           width={200}
                           height={90}
@@ -201,19 +201,7 @@ const OurClients = ({ award }) => {
                     <div className="clients-classic">
                       <a className="clients-classic-figure" href="#">
                         <img
-                          src="/assets/images/clients-5-200x90.png"
-                          alt
-                          width={200}
-                          height={90}
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 wow fadeInRight">
-                    <div className="clients-classic">
-                      <a className="clients-classic-figure" href="#">
-                        <img
-                          src="/assets/images/clients-6-200x90.png"
+                          src="/assets/images/chennai-metro-logo-150x150.jpg"
                           alt
                           width={200}
                           height={90}
