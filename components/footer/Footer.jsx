@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <div>
@@ -15,22 +17,20 @@ const Footer = () => {
                 <div className="footer-classic-body">
                   <ul className="footer-classic-list d-inline-block d-sm-block">
                     <li>
-                      <a href="about-us.html">Our History</a>
+                      <Link href="/blogs">Blogs</Link>
                     </li>
                     <li>
-                      <a href="#">FAQ</a>
+                      <Link href="/about">About us</Link>
                     </li>
                     <li>
-                      <a href="grid-blog.html">Latest News</a>
+                      <Link href="/contact">Contact us</Link>
+                    </li>
+
+                    <li>
+                      <Link href="/projects">Projects</Link>
                     </li>
                     <li>
-                      <a href="#">Our Team</a>
-                    </li>
-                    <li>
-                      <a href="projects.html">Projects</a>
-                    </li>
-                    <li>
-                      <a href="contacts.html">Contact Us</a>
+                      <Link href="/services">Services</Link>
                     </li>
                   </ul>
                   <ul className="list-inline footer-social-list">
@@ -68,7 +68,7 @@ const Footer = () => {
                           </div>
                           <div className="unit-body">
                             <a className="phone" href="tel:#">
-                              +1 718-999-3939
+                              +91-124-4653435
                             </a>
                           </div>
                         </div>
@@ -80,39 +80,34 @@ const Footer = () => {
                           </div>
                           <div className="unit-body">
                             <a className="mail" href="mailto:#">
-                              info@demolink.org
+                              hr@stsinfracon.com
                             </a>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <a
+                    <Link
                       className="button button-sm button-primary button-winona"
-                      href="contacts.html"
+                      href="/contact"
                     >
                       Request a quote
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 position-static">
                 <div className="footer-classic-gmap">
-                  <div
-                    className="google-map-container"
-                    data-center="9870 St Vincent Place, Glasgow, DC 45 Fr 45."
-                    data-zoom={5}
-                    data-icon="images/gmap_marker.png"
-                    data-icon-active="images/gmap_marker_active.png"
-                    data-styles='[{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":60}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","stylers":[{"visibility":"on"},{"lightness":30}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ef8c25"},{"lightness":40}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#b6c54c"},{"lightness":40},{"saturation":-40}]},{}]'
-                  >
-                    <div className="google-map" />
-                    <ul className="google-map-markers">
-                      <li
-                        data-location="9870 St Vincent Place, Glasgow, DC 45 Fr 45."
-                        data-description="9870 St Vincent Place, Glasgow"
-                      />
-                    </ul>
-                  </div>
+                  <div className="" />
+
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.208414135136!2d77.0525799740844!3d28.412967494020076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d2263d766a1db%3A0xc1f0d06c3384b23d!2sSTS%20Infracon%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1705480780231!5m2!1sen!2sin"
+                    width={400}
+                    height={300}
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  />
                 </div>
               </div>
             </div>

@@ -4,7 +4,7 @@ const NewsLetter = () => {
   return (
     <div>
       <section
-        className="section parallax-container"
+        className="section parallax-container "
         data-parallax-img="./assets/images/bg-forms-1.jpg"
       >
         <div className="parallax-content section-md context-dark text-md-left">

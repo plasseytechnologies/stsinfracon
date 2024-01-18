@@ -1,3 +1,4 @@
+"use client";
 import AboutCompany from "@/components/aboutCompany/AboutCompany";
 import CompanyCTA from "@/components/companyCTA/CompanyCTA";
 import OurGallery from "@/components/gallery/OurGallery";
@@ -7,8 +8,16 @@ import LatestProject from "@/components/latestProject/LatestProject";
 import NewsLetter from "@/components/newsLetter/NewsLetter";
 import OurClients from "@/components/ourClients/OurClients";
 import WeOffer from "@/components/weOffer/WeOffer";
+import { AllScriptLoad } from "@/constant/scriptFiles";
+import Script from "next/script";
+import { useEffect } from "react";
+import TeamData from "../constant/TeamData.json";
+import OurWork from "../constant/OurWork";
 
 const Home = () => {
+  useEffect(() => {
+    AllScriptLoad();
+  }, []);
   return (
     <div>
       <HeroBanner />
@@ -19,11 +28,11 @@ const Home = () => {
       {/* Section CTA*/}*
       <CompanyCTA />
       {/* Mining machinery*/}
-      <OurGallery />
+      <OurGallery data={OurWork} name={"Our Work"} />
       {/* Latest Project*/}
       <LatestProject />
       {/* Section*/}
-      <OurClients />
+      <OurClients award={true} />
       {/* Section*/}
       <section className="section section-xl bg-default text-md-left">
         <div className="container">
@@ -68,167 +77,50 @@ const Home = () => {
                 data-animation-out="fadeOut"
                 data-navigation-class="#owl-custom-nav-1"
               >
-                {/* Team Modern*/}
-                <article className="team-modern">
-                  <a className="team-modern-figure" href="#">
-                    <img
-                      src="/assets/images/team-18-270x236.jpg"
-                      alt
-                      width={270}
-                      height={236}
-                    />
-                  </a>
-                  <div className="team-modern-caption">
-                    <h6 className="team-modern-name">
-                      <a href="#">Frank McMillan</a>
-                    </h6>
-                    <div className="team-modern-status">
-                      CEO, Managing Director
-                    </div>
-                    <ul className="list-inline team-modern-social-list">
-                      <li>
-                        <a className="icon mdi mdi-facebook" href="#" />
-                      </li>
-                      <li>
-                        <a className="icon mdi mdi-twitter" href="#" />
-                      </li>
-                      <li>
-                        <a className="icon mdi mdi-instagram" href="#" />
-                      </li>
-                      <li>
-                        <a className="icon mdi mdi-google-plus" href="#" />
-                      </li>
-                    </ul>
-                  </div>
-                </article>
-                {/* Team Modern*/}
-                <article className="team-modern">
-                  <a className="team-modern-figure" href="#">
-                    <img
-                      src="/assets/images/team-19-270x236.jpg"
-                      alt
-                      width={270}
-                      height={236}
-                    />
-                  </a>
-                  <div className="team-modern-caption">
-                    <h6 className="team-modern-name">
-                      <a href="#">John Smith</a>
-                    </h6>
-                    <div className="team-modern-status">
-                      Construction Manager
-                    </div>
-                    <ul className="list-inline team-modern-social-list">
-                      <li>
-                        <a className="icon mdi mdi-facebook" href="#" />
-                      </li>
-                      <li>
-                        <a className="icon mdi mdi-twitter" href="#" />
-                      </li>
-                      <li>
-                        <a className="icon mdi mdi-instagram" href="#" />
-                      </li>
-                      <li>
-                        <a className="icon mdi mdi-google-plus" href="#" />
-                      </li>
-                    </ul>
-                  </div>
-                </article>
-                {/* Team Modern*/}
-                <article className="team-modern">
-                  <a className="team-modern-figure" href="#">
-                    <img
-                      src="/assets/images/team-3-270x236.jpg"
-                      alt
-                      width={270}
-                      height={236}
-                    />
-                  </a>
-                  <div className="team-modern-caption">
-                    <h6 className="team-modern-name">
-                      <a href="#">Ben Wilson</a>
-                    </h6>
-                    <div className="team-modern-status">Estimating Manager</div>
-                    <ul className="list-inline team-modern-social-list">
-                      <li>
-                        <a className="icon mdi mdi-facebook" href="#" />
-                      </li>
-                      <li>
-                        <a className="icon mdi mdi-twitter" href="#" />
-                      </li>
-                      <li>
-                        <a className="icon mdi mdi-instagram" href="#" />
-                      </li>
-                      <li>
-                        <a className="icon mdi mdi-google-plus" href="#" />
-                      </li>
-                    </ul>
-                  </div>
-                </article>
-                {/* Team Modern*/}
-                <article className="team-modern">
-                  <a className="team-modern-figure" href="#">
-                    <img
-                      src="/assets/images/team-20-270x236.jpg"
-                      alt
-                      width={270}
-                      height={236}
-                    />
-                  </a>
-                  <div className="team-modern-caption">
-                    <h6 className="team-modern-name">
-                      <a href="#">Ben Fitzgerald</a>
-                    </h6>
-                    <div className="team-modern-status">Quantity Surveyor</div>
-                    <ul className="list-inline team-modern-social-list">
-                      <li>
-                        <a className="icon mdi mdi-facebook" href="#" />
-                      </li>
-                      <li>
-                        <a className="icon mdi mdi-twitter" href="#" />
-                      </li>
-                      <li>
-                        <a className="icon mdi mdi-instagram" href="#" />
-                      </li>
-                      <li>
-                        <a className="icon mdi mdi-google-plus" href="#" />
-                      </li>
-                    </ul>
-                  </div>
-                </article>
-                {/* Team Modern*/}
-                <article className="team-modern">
-                  <a className="team-modern-figure" href="#">
-                    <img
-                      src="/assets/images/team-21-270x236.jpg"
-                      alt
-                      width={270}
-                      height={236}
-                    />
-                  </a>
-                  <div className="team-modern-caption">
-                    <h6 className="team-modern-name">
-                      <a href="#">John Tuff</a>
-                    </h6>
-                    <div className="team-modern-status">
-                      Health &amp; Safety Manager
-                    </div>
-                    <ul className="list-inline team-modern-social-list">
-                      <li>
-                        <a className="icon mdi mdi-facebook" href="#" />
-                      </li>
-                      <li>
-                        <a className="icon mdi mdi-twitter" href="#" />
-                      </li>
-                      <li>
-                        <a className="icon mdi mdi-instagram" href="#" />
-                      </li>
-                      <li>
-                        <a className="icon mdi mdi-google-plus" href="#" />
-                      </li>
-                    </ul>
-                  </div>
-                </article>
+                {TeamData.map((team) => {
+                  return (
+                    <>
+                      {/* Team Modern*/}
+                      <article className="team-modern">
+                        <div className="team-modern-figure">
+                          <img
+                            style={{
+                              width: `${team.width}px`,
+                              height: `${team.height}px`,
+                            }}
+                            src={team.image}
+                            alt
+                          />
+                        </div>
+                        <div className="team-modern-caption">
+                          <h6 className="team-modern-name">
+                            <p>{team.name}</p>
+                          </h6>
+                          <div className="team-modern-status">
+                            {team.position}
+                          </div>
+                          <ul className="list-inline team-modern-social-list">
+                            <li>
+                              <a className="icon mdi mdi-facebook" href="#" />
+                            </li>
+                            <li>
+                              <a className="icon mdi mdi-twitter" href="#" />
+                            </li>
+                            <li>
+                              <a className="icon mdi mdi-instagram" href="#" />
+                            </li>
+                            <li>
+                              <a
+                                className="icon mdi mdi-google-plus"
+                                href="#"
+                              />
+                            </li>
+                          </ul>
+                        </div>
+                      </article>
+                    </>
+                  );
+                })}
               </div>
             </div>
           </div>
@@ -237,7 +129,7 @@ const Home = () => {
       {/* Suscribe to our newsletter*/}
       <NewsLetter />
       {/* <!-- Latest news--> */}
-      <LatestNews />
+      {/* <LatestNews /> */}
     </div>
   );
 };
