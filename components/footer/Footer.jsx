@@ -95,7 +95,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 position-static">
+              {/* <div className="col-lg-4 position-static">
                 <div className="footer-classic-gmap">
                   <div className="" />
 
@@ -109,7 +109,7 @@ const Footer = () => {
                     referrerPolicy="no-referrer-when-downgrade"
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
