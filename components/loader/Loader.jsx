@@ -2,36 +2,16 @@ import React from "react";
 
 const Loader = () => {
   return (
-    <div>
+    <div className>
       <div className="preloader">
         <div className="wrapper-triangle">
           <div className="pen">
-            <div className="line-triangle">
-              <div className="triangle" />
-              <div className="triangle" />
-              <div className="triangle" />
-              <div className="triangle" />
-              <div className="triangle" />
-              <div className="triangle" />
-              <div className="triangle" />
-            </div>
-            <div className="line-triangle">
-              <div className="triangle" />
-              <div className="triangle" />
-              <div className="triangle" />
-              <div className="triangle" />
-              <div className="triangle" />
-              <div className="triangle" />
-              <div className="triangle" />
-            </div>
-            <div className="line-triangle">
-              <div className="triangle" />
-              <div className="triangle" />
-              <div className="triangle" />
-              <div className="triangle" />
-              <div className="triangle" />
-              <div className="triangle" />
-              <div className="triangle" />
+            <div className="">
+              <img
+                src="/assets/images/Logo-2.png"
+                alt
+                style={{ width: "280px", height: "242px", marginLeft: "10px" }}
+              />
             </div>
           </div>
         </div>
