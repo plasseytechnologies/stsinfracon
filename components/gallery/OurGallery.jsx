@@ -23,12 +23,17 @@ const OurGallery = ({ data, name }) => {
                       className="thumbnail thumbnail-modern wow slideInUp hoverdir-item"
                       data-hoverdir-target=".thumbnail-modern-caption"
                     >
-                      <img
-                        src={item?.offerImage}
-                        alt
-                        style={{ width: "474px", height: "270px" }}
-                      />
-
+                      <a
+                        className="thumbnail-modern-figure"
+                        href={item?.offerImage}
+                        data-lightgallery="item"
+                      >
+                        <img
+                          src={item?.offerImage}
+                          alt
+                          style={{ width: "474px", height: "270px" }}
+                        />
+                      </a>
                       <div className="thumbnail-modern-caption">
                         <h5 className="thumbnail-modern-title">
                           <p>{item?.offerName}</p>
