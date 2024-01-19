@@ -23,7 +23,7 @@ const Home = () => {
     const loadScripts = async () => {
       try {
         const result = await AllScriptLoad();
-        console.log(result);
+
         setLoader(false);
       } catch (error) {
         console.error("Error loading scripts:", error);
