@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const BlogDetails = () => {
@@ -20,11 +21,9 @@ const BlogDetails = () => {
           <div className="container">
             <ul className="breadcrumbs-custom-path">
               <li>
-                <a href="index.html">Home</a>
+                <Link href="/">Home</Link>
               </li>
-              <li>
-                <a href="grid-blog.html">News</a>
-              </li>
+
               <li className="active">Blog post</li>
             </ul>
           </div>
@@ -47,7 +46,7 @@ const BlogDetails = () => {
                         <li className="post-classic-author">
                           <span className="icon mdi mdi-account-outline" />
                           <span>
-                            by <a href="#">Harry Burns</a>
+                            by <p>Harry Burns</p>
                           </span>
                         </li>
                         <li className="post-classic-views">
@@ -178,10 +177,7 @@ const BlogDetails = () => {
                           <article className="post post-minimal">
                             <div className="unit unit-spacing-2 align-items-center unit-spacing-md">
                               <div className="unit-left">
-                                <a
-                                  className="post-minimal-figure"
-                                  href="blog-post.html"
-                                >
+                                <a className="post-minimal-figure" href="#">
                                   <img
                                     src="/assets/images/post-13-106x104.jpg"
                                     alt
@@ -195,70 +191,6 @@ const BlogDetails = () => {
                                   <a href="blog-post.html">
                                     Main Differences in Products from the
                                     Natural Gas Industry
-                                  </a>
-                                </p>
-                                <div className="post-minimal-time">
-                                  <time dateTime="2021-03-15">
-                                    March 15, 2021
-                                  </time>
-                                </div>
-                              </div>
-                            </div>
-                          </article>
-                        </div>
-                        <div className="list-popular-post-item">
-                          {/* Post Minimal*/}
-                          <article className="post post-minimal">
-                            <div className="unit unit-spacing-2 align-items-center unit-spacing-md">
-                              <div className="unit-left">
-                                <a
-                                  className="post-minimal-figure"
-                                  href="blog-post.html"
-                                >
-                                  <img
-                                    src="/assets/images/post-14-106x104.jpg"
-                                    alt
-                                    width={106}
-                                    height={104}
-                                  />
-                                </a>
-                              </div>
-                              <div className="unit-body">
-                                <p className="post-minimal-title">
-                                  <a href="blog-post.html">
-                                    Blue Energy Signals US Oil Drilling Revival
-                                  </a>
-                                </p>
-                                <div className="post-minimal-time">
-                                  <time dateTime="2021-03-15">
-                                    March 15, 2021
-                                  </time>
-                                </div>
-                              </div>
-                            </div>
-                          </article>
-                        </div>
-                        <div className="list-popular-post-item">
-                          {/* Post Minimal*/}
-                          <article className="post post-minimal">
-                            <div className="unit unit-spacing-2 align-items-center unit-spacing-md">
-                              <div className="unit-left">
-                                <a
-                                  className="post-minimal-figure"
-                                  href="blog-post.html"
-                                >
-                                  <img
-                                    src="/assets/images/post-15-106x104.jpg"
-                                    alt
-                                    width={106}
-                                    height={104}
-                                  />
-                                </a>
-                              </div>
-                              <div className="unit-body">
-                                <p className="post-minimal-title">
-                                  <a href="blog-post.html">
-                                    Oil Prices: Here Come The Bulls
                                   </a>
                                 </p>
                                 <div className="post-minimal-time">

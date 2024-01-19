@@ -103,12 +103,12 @@ const AboutUs = () => {
                     </a>
                   </li>
                 </ul>
-                <a
+                <Link
                   className="button button-lg button-primary button-winona"
-                  href="contacts.html"
+                  href="/contact"
                 >
                   Contact us
-                </a>
+                </Link>
               </div>
               <div className="col-lg-8 col-xl-9">
                 {/* Tab panes*/}
@@ -138,19 +138,24 @@ const AboutUs = () => {
                       India.{" "}
                     </p>
                     <h5 className="my-3">Proficiencies: </h5>
+                    <div class="flex flex-col justify-start p-4 sm:w-full w-full">
+                      <ul class="list-disc">
+                        <li className="mb-2">Road and Highway Projects</li>
+                        <li className="mb-2">Railway and Metro Projects</li>
+                        <li className="mb-2">Airport Projects</li>
+                        <li className="mb-2">Irrigation Projects</li>
+                        <li className="mb-2">
+                          Transmission Line, Sub-station and Distribution Works
+                        </li>
+                        <li className="mb-2">
+                          Hotel & Resorts/ Hospitals/ IT Complex / Sports
+                          Complex
+                        </li>
+                        <li className="mb-2">Shopping Malls</li>
+                        <li className="mb-2">Multistoried Buildings</li>
+                      </ul>
+                    </div>
 
-                    <li>Road and Highway Projects</li>
-                    <li>Railway and Metro Projects</li>
-                    <li>Airport Projects</li>
-                    <li>Irrigation Projects</li>
-                    <li>
-                      Transmission Line, Sub-station and Distribution Works
-                    </li>
-                    <li>
-                      Hotel & Resorts/ Hospitals/ IT Complex / Sports Complex
-                    </li>
-                    <li>Shopping Malls</li>
-                    <li>Multistoried Buildings</li>
                     <img
                       src="/assets/images/about-1-835x418.jpg"
                       alt
@@ -240,7 +245,7 @@ const AboutUs = () => {
                       height={418}
                     />
                   </div>
-                  <div className="tab-pane fade" id="tabs-5-5">
+                  <div className="tab-pane fade " id="tabs-5-5">
                     <h4>What We Do</h4>
                     <p>
                       We Build Highways, Structures, and other infrastructure
@@ -264,34 +269,36 @@ const AboutUs = () => {
                       various equipment used in Infrastructure projects to
                       market their products to various clients.
                     </p>
-                    <h6 className="my-3">
+                    <h6 className="my-3 w-80 sm:w-full">
                       Various services of{" "}
                       <span className="text-[#ef7c14] pb-5">SUNOVERSEAS:</span>
                     </h6>
-
-                    <li className="">
-                      {" "}
-                      Marketing, Business Development & Bidding
-                    </li>
-                    <li> Support for Legal & Financial Services</li>
-                    <li> Engineering, Design and Technology Support</li>
-                    <li>Manpower Management</li>
-                    <li>Project Monitoring</li>
-                    <li>Logistics Management</li>
+                    <div className=" flex flex-col justify-start p-x-3">
+                      <ul className="list-disc p-2">
+                        <li> Marketing, Business Development & Bidding</li>
+                        <li> Support for Legal & Financial Services</li>
+                        <li> Engineering, Design and Technology Support</li>
+                        <li>Manpower Management</li>
+                        <li>Project Monitoring</li>
+                        <li>Logistics Management</li>
+                      </ul>
+                    </div>
 
                     <p className="pb-2 text-black">
                       <b>Group Companies: </b>
                     </p>
-                    <ul className="justify-start">
-                      <li>
-                        <b>STS INFRACON PRIVATE LIMITED</b>
-                      </li>
-                      <li>EUROSUN INDIA PVT. LTD</li>
-                      <li>PRASUN DEVELOPERS PVT. LTD.</li>
-                      <li> PLASSEY TECHNOLOGIES PVT. LTD.</li>
-                      <li>BELLAMENTE EDU SOLUTIONS PVT. LTD.</li>
-                      <li>GARNI FOODS PVT. LTD.</li>
-                    </ul>
+                    <div className="flex flex-col justify-start">
+                      <ul className="list-disc">
+                        <li>
+                          <b>STS INFRACON PRIVATE LIMITED</b>
+                        </li>
+                        <li>EUROSUN INDIA PVT. LTD</li>
+                        <li>PRASUN DEVELOPERS PVT. LTD.</li>
+                        <li> PLASSEY TECHNOLOGIES PVT. LTD.</li>
+                        <li>BELLAMENTE EDU SOLUTIONS PVT. LTD.</li>
+                        <li>GARNI FOODS PVT. LTD.</li>
+                      </ul>
+                    </div>
                     <img
                       src="/assets/images/about-4-835x418.jpg"
                       alt
@@ -509,11 +516,6 @@ const AboutUs = () => {
                     height={710}
                   />
                   <div className="link-play-modern">
-                    <a
-                      className="icon mdi mdi-play"
-                      data-lightbox="iframe"
-                      href="https://www.youtube.com/watch?v=1UWpbtUupQQ"
-                    />
                     <div className="link-play-modern-title">
                       How we<span>Work</span>
                     </div>

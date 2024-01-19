@@ -51,10 +51,10 @@ const Header = () => {
                         <span className="icon mdi mdi-map-marker" />
                       </div>
                       <div className="unit-body">
-                        <a className="address" href="#">
+                        <p className="address">
                           307, 3rd Floor, Eros City Square, Rosewood City ,
                           Sector 49-50, Gurugram, Haryana-122018
-                        </a>
+                        </p>
                       </div>
                     </div>
                   </li>
@@ -94,14 +94,14 @@ const Header = () => {
                 </button>
                 {/* RD Navbar Brand*/}
                 <div className="rd-navbar-brand">
-                  <a className="brand" href="index.html">
+                  <Link className="brand" href="/">
                     <img
                       className="brand-logo-dark"
                       src="/assets/images/Logo-2.png"
                       style={{ height: "60px", width: "200px" }}
                       alt
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* Mobile Navbar */}
@@ -122,7 +122,7 @@ const Header = () => {
                           </div>
                           <div className="unit-body">
                             <a className="phone" href="tel:#">
-                              +1 718-999-3939
+                              91-124-4653435
                             </a>
                           </div>
                         </div>
@@ -133,9 +133,10 @@ const Header = () => {
                             <span className="icon mdi mdi-map-marker" />
                           </div>
                           <div className="unit-body">
-                            <a className="address" href="#">
-                              514 S. Magnolia St. Orlando, FL 32806
-                            </a>
+                            <p className="address text-[#323D60]">
+                              307, 3rd Floor, Eros City Square, Rosewood City ,
+                              Sector 49-50, Gurugram, Haryana-122018
+                            </p>
                           </div>
                         </div>
                       </li>

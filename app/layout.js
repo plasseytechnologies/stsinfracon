@@ -14,15 +14,15 @@ export default function RootLayout({ children }) {
           content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
         />
         <meta charSet="utf-8" />
+
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>STS INFRACON PRIVATE LIMITED</title>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta charSet="utf-8" />
+        <link rel="icon" href="/assets/images/Logo-2-png" type="image/x-icon" />
 
         {/* Stylesheets*/}
-
-        <link rel="icon" href="/assets/images/logo-2.png" type="image/x-icon" />
 
         <link
           rel="stylesheet"

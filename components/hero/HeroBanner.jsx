@@ -8,7 +8,7 @@ const HeroBanner = () => {
         className="section swiper-container swiper-slider swiper-slider-2"
         data-swiper='{"autoplay":{"delay":5000},"effect":"fade","loop":"true","simulateTouch":"false","pagination":{"el":".swiper-pagination","clickable":true}}'
       >
-        <div className="swiper-wrapper text-sm-left">
+        <div className="swiper-wrapper text-sm-left ">
           <div
             className="swiper-slide context-dark"
             data-slide-bg="/assets/images/Road.jpg"
@@ -16,7 +16,7 @@ const HeroBanner = () => {
             <div className="swiper-slide-caption section-md">
               <div className="container">
                 <div className="row">
-                  <div className="col-sm-8 col-md-7 col-lg-6 offset-lg-1 offset-xxl-0">
+                  <div className="col-sm-8 col-md-7 col-lg-6 offset-lg-1 offset-xxl-0  mt-10">
                     <h3 className="oh swiper-title">
                       <span
                         className="d-inline-block"

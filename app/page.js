@@ -13,6 +13,7 @@ import Script from "next/script";
 import { useEffect } from "react";
 import TeamData from "../constant/TeamData.json";
 import OurWork from "../constant/OurWork";
+import Link from "next/link";
 
 const Home = () => {
   useEffect(() => {
@@ -56,7 +57,7 @@ const Home = () => {
                   <div className="button-style-1 wow slideInLeft">
                     <span className="icon mdi mdi-email-outline" />
                     <span className="button-style-1-text">
-                      <a href="contacts.html">Contact us</a>
+                      <Link href="/contact">Contact us</Link>
                     </span>
                   </div>
                   <div className="wow slideInRight">
