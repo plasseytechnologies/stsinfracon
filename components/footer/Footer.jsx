@@ -95,21 +95,19 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              {/* <div className="col-lg-4 position-static">
-                <div className="footer-classic-gmap">
-                  <div className="" />
+              <div className="col-lg-4 position-static">
+                <div className="footer-classic-gmap sm:mr-5 ">
+                  {/* <div className=" w-full" /> */}
 
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.208414135136!2d77.0525799740844!3d28.412967494020076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d2263d766a1db%3A0xc1f0d06c3384b23d!2sSTS%20Infracon%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1705480780231!5m2!1sen!2sin"
-                    width={400}
-                    height={300}
-                    style={{ border: 0 }}
+                    style={{ border: 0, width: "100%", height: "100%" }}
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
                   />
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
@@ -120,9 +118,12 @@ const Footer = () => {
               <span>©&nbsp;</span>
               <span className="copyright-year" />
               <span>&nbsp;</span>
-              <span>Civil Group</span>
-              <span>.&nbsp;</span>
-              <a href="privacy-policy.html">Privacy policy</a>
+              <span>STS INFRACON PRIVATE LIMITED |</span>
+              {/* <span>.&nbsp;</span> */}
+              <Link href="https://plasseytechnologies.in/" target="new">
+                {" "}
+                Powered by Plassey Technologies Pvt. Ltd.
+              </Link>
             </p>
           </div>
         </div>

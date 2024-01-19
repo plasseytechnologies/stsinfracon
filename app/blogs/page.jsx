@@ -40,7 +40,7 @@ const Blogs = () => {
             </div>
             <div className="pagination-wrap">
               {/* Bootstrap Pagination*/}
-              <nav aria-label="Page navigation">
+              {/* <nav aria-label="Page navigation">
                 <ul className="pagination">
                   <li className="page-item page-item-control disabled">
                     <a className="page-link" href="#" aria-label="Previous">
@@ -66,7 +66,7 @@ const Blogs = () => {
                     </a>
                   </li>
                 </ul>
-              </nav>
+              </nav> */}
             </div>
           </div>
         </section>

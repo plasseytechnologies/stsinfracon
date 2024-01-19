@@ -24,7 +24,7 @@ const Project = () => {
         <div className="container">
           <ul className="breadcrumbs-custom-path">
             <li>
-              <a href="index.html">Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li className="active">Projects</li>
           </ul>

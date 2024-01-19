@@ -14,7 +14,7 @@ const AboutCompany = () => {
                   </div>
                   <div className="unit-body">
                     <h5 className="box-icon-classic-title">
-                      <a href="single-service.html">Modern Technology</a>
+                      <p>Modern Technology</p>
                     </h5>
                     <p className="box-icon-classic-text">
                       Our team uses the latest technologies to design
@@ -32,7 +32,7 @@ const AboutCompany = () => {
                   </div>
                   <div className="unit-body">
                     <h5 className="box-icon-classic-title">
-                      <a href="single-service.html">Powerful Equipment</a>
+                      <p>Powerful Equipment</p>
                     </h5>
                     <p className="box-icon-classic-text">
                       We use modern &amp; powerful equipment to create efficient
@@ -50,7 +50,7 @@ const AboutCompany = () => {
                   </div>
                   <div className="unit-body">
                     <h5 className="box-icon-classic-title">
-                      <a href="single-service.html">Quality Materials</a>
+                      <p>Quality Materials</p>
                     </h5>
                     <p className="box-icon-classic-text">
                       High-quality materials are the absolute guarantee of
@@ -68,7 +68,7 @@ const AboutCompany = () => {
                   </div>
                   <div className="unit-body">
                     <h5 className="box-icon-classic-title">
-                      <a href="single-service.html">Affordable Prices</a>
+                      <p>Affordable Prices</p>
                     </h5>
                     <p className="box-icon-classic-text">
                       At Civil Group, we provide all our services and solutions
@@ -86,7 +86,7 @@ const AboutCompany = () => {
                   </div>
                   <div className="unit-body">
                     <h5 className="box-icon-classic-title">
-                      <a href="single-service.html">Professional Team</a>
+                      <p>Professional Team</p>
                     </h5>
                     <p className="box-icon-classic-text">
                       We are a team of experienced civil engineers working to
@@ -104,7 +104,7 @@ const AboutCompany = () => {
                   </div>
                   <div className="unit-body">
                     <h5 className="box-icon-classic-title">
-                      <a href="single-service.html">24/7 Support</a>
+                      <p>24/7 Support</p>
                     </h5>
                     <p className="box-icon-classic-text">
                       Any client of our company receives full 24/7 support by

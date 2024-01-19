@@ -26,19 +26,16 @@ const WeOffer = () => {
               <>
                 {/* Services Creative*/}
                 <article className="services-creative">
-                  <a
-                    className="services-creative-figure"
-                    href="single-service.html"
-                  >
+                  <div className="services-creative-figure">
                     <img
                       src={services.offerImage}
                       alt
                       style={{ height: "250px", width: "370px" }}
                     />
-                  </a>
+                  </div>
                   <div className="services-creative-caption">
                     <h5 className="services-creative-title">
-                      <a href="single-service.html">{services.offerName}</a>
+                      <p>{services.offerName}</p>
                     </h5>
                     <p className="services-creative-text">
                       {services.offerPara.slice(0, 45)}

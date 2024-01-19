@@ -1,7 +1,12 @@
+"use client";
+import { AllScriptLoad } from "@/constant/scriptFiles";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 
 const Contact = () => {
+  useEffect(() => {
+    AllScriptLoad();
+  }, []);
   return (
     <div>
       <div>
