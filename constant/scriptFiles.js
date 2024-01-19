@@ -17,11 +17,13 @@ const AllScriptLoad = () => {
       script.onload = () => {
         // console.log(`Script ${src} loaded successfully`);
         resolve();
+        return true;
       };
 
       script.onerror = (error) => {
         // console.error(`Error loading script ${src}:`, error);
         reject();
+        return false;
       };
 
       document.body.appendChild(script);
