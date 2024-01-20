@@ -40,7 +40,7 @@ const Home = () => {
     const checkLoadingTime = () => {
       const timeTaken = performance.now() - domContentLoadedTime;
 
-      if (timeTaken > loaderThreshold) {
+      if (domContentLoadedTime > loaderThreshold) {
         setLoader(true);
       }
     };
@@ -49,7 +49,7 @@ const Home = () => {
 
     // Cleanup the event listener when the component is unmounted
     return () => {
-      // window.removeEventListener('load', checkLoadingTime);
+      window.removeEventListener("load", checkLoadingTime);
     };
   }, []);
   return (
