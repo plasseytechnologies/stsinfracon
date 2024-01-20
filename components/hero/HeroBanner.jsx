@@ -17,13 +17,20 @@ const HeroBanner = () => {
               <div className="container">
                 <div className="row">
                   <div className="col-sm-8 col-md-7 col-lg-6 offset-lg-1 offset-xxl-0  mt-10">
+                    <p
+                      className="text-2xl font-bold text-[#ef7c14]"
+                      data-caption-animate="slideInDown"
+                      data-caption-delay={0}
+                    >
+                      Serviced Offered By STS
+                    </p>
                     <h3 className="oh swiper-title">
                       <span
                         className="d-inline-block"
                         data-caption-animate="slideInUp"
                         data-caption-delay={0}
                       >
-                        STS INFRACON PRIVATE LIMITED
+                        Delivering Quality
                       </span>
                     </h3>
                     <h5
@@ -31,9 +38,9 @@ const HeroBanner = () => {
                       data-caption-animate="fadeInLeft"
                       data-caption-delay={300}
                     >
-                      Quality and Timely Delivery of Projects is the essence of
-                      success for any infrastructure industry and we are totally
-                      embedded to the same.
+                      Making use of the best possible resources to complete
+                      projects such that they become robust landmarks is our
+                      forte at STS Infracon.
                     </h5>
                     <Link
                       className="button button-lg button-primary button-winona button-shadow-2"
@@ -56,13 +63,20 @@ const HeroBanner = () => {
               <div className="container">
                 <div className="row">
                   <div className="col-sm-9 col-md-8 col-xl-6 offset-lg-1 offset-xxl-0">
+                    <p
+                      className="text-2xl font-bold text-[#ef7c14]"
+                      data-caption-animate="slideInDown"
+                      data-caption-delay={0}
+                    >
+                      Serviced Offered By STS
+                    </p>
                     <h3 className="oh swiper-title">
                       <span
                         className="d-inline-block"
                         data-caption-animate="slideInDown"
                         data-caption-delay={0}
                       >
-                        STS INFRACON PRIVATE LIMITED
+                        Fast & Efficient Services
                       </span>
                     </h3>
                     <h5
@@ -70,9 +84,9 @@ const HeroBanner = () => {
                       data-caption-animate="fadeInRight"
                       data-caption-delay={300}
                     >
-                      Quality and Timely Delivery of Projects is the essence of
-                      success for any infrastructure industry and we are totally
-                      embedded to the same.
+                      STS Infracon consists of experts who excel at working
+                      under time constraints. We have built a reputation for
+                      handling projects quickly and efficiently.
                     </h5>
                     <div className="button-wrap oh">
                       <Link
@@ -97,13 +111,20 @@ const HeroBanner = () => {
               <div className="container">
                 <div className="row">
                   <div className="col-sm-8 col-md-7 col-xl-6 offset-lg-1 offset-xxl-0">
+                    <p
+                      className="text-2xl font-bold text-[#ef7c14]"
+                      data-caption-animate="slideInDown"
+                      data-caption-delay={0}
+                    >
+                      Serviced Offered By STS
+                    </p>
                     <h3 className="oh swiper-title">
                       <span
                         className="d-inline-block"
                         data-caption-animate="slideInLeft"
                         data-caption-delay={100}
                       >
-                        STS INFRACON PRIVATE LIMITED
+                        Civil Engineering Experts
                       </span>
                     </h3>
                     <h5
@@ -111,9 +132,10 @@ const HeroBanner = () => {
                       data-caption-animate="fadeInUp"
                       data-caption-delay={0}
                     >
-                      Quality and Timely Delivery of Projects is the essence of
-                      success for any infrastructure industry and we are totally
-                      embedded to the same.
+                      STS Infracon has some of the best experts in the industry
+                      spearheading their projects. From elite civil engineers to
+                      veteran project managers and operations executives, we
+                      have the best of every field
                     </h5>
                     <div className="button-wrap oh">
                       <Link

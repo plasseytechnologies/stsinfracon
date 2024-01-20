@@ -17,20 +17,40 @@ import Link from "next/link";
 import Loader from "@/components/loader/Loader";
 
 const Home = () => {
-  const [loader, setLoader] = useState(true);
+  const [loader, setLoader] = useState(false);
 
+  // useEffect(() => {
+  //   const loadScripts = async () => {
+  //     try {
+  //       const result = await AllScriptLoad();
+
+  //       setLoader(false);
+  //     } catch (error) {
+  //       console.error("Error loading scripts:", error);
+  //     }
+  //   };
+
+  //   loadScripts();
+  // }, []);
   useEffect(() => {
-    const loadScripts = async () => {
-      try {
-        const result = await AllScriptLoad();
+    AllScriptLoad();
+    const domContentLoadedTime = performance.now();
+    const loaderThreshold = 3000; // Adjust this value as needed
+    console.log(domContentLoadedTime);
+    const checkLoadingTime = () => {
+      const timeTaken = performance.now() - domContentLoadedTime;
 
-        setLoader(false);
-      } catch (error) {
-        console.error("Error loading scripts:", error);
+      if (timeTaken > loaderThreshold) {
+        setLoader(true);
       }
     };
 
-    loadScripts();
+    checkLoadingTime();
+
+    // Cleanup the event listener when the component is unmounted
+    return () => {
+      // window.removeEventListener('load', checkLoadingTime);
+    };
   }, []);
   return (
     <div>
