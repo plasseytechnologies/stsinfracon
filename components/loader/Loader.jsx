@@ -4,13 +4,13 @@ const Loader = () => {
   return (
     <div className>
       <div className="preloader">
-        <div className="wrapper-triangle">
+        <div className="w-auto h-auto mx-auto my-auto">
           <div className="pen">
             <div className="">
               <img
                 src="/assets/images/Logo-2.png"
                 alt
-                style={{ width: "280px", height: "242px", marginLeft: "10px" }}
+                style={{ maxWidth: "280px", maxHeight: "242px" }}
               />
             </div>
           </div>
