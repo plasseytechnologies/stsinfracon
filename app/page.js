@@ -18,21 +18,20 @@ import Loader from "@/components/loader/Loader";
 
 const Home = () => {
   const [loader, setLoader] = useState(true);
+  const loadScripts = async () => {
+    try {
+      const result = await AllScriptLoad();
+      const domContentLoadedTime = performance.now();
 
+      setLoader(false);
+    } catch (error) {
+      console.error("Error loading scripts:", error);
+    }
+  };
   useEffect(() => {
-    const loadScripts = async () => {
-      try {
-        const result = await AllScriptLoad();
-        const domContentLoadedTime = performance.now();
-        if (result && domContentLoadedTime) {
-          setLoader(false);
-        }
-      } catch (error) {
-        console.error("Error loading scripts:", error);
-      }
-    };
-
-    loadScripts();
+    setTimeout(() => {
+      loadScripts();
+    }, 2000);
   }, []);
 
   return (
