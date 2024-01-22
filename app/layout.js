@@ -32,6 +32,10 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="/assets/css/bootstrap.css" />
         <link rel="stylesheet" href="/assets/css/fonts.css" />
         <link rel="stylesheet" href="/assets/css/style.css" />
+        <Script src="/assets/js/core.min.js" />
+        <Script src="/assets/js/3ts2ksMwXvKRuG480KNifJ2_JNM.js" />
+        <Script src="/assets/js/4o300efCt-CXoq1JEC-sVReFz48.js" />
+        <Script src="/assets/js/script.js" />
       </head>
 
       <body style={{ overflowX: "hidden" }}>

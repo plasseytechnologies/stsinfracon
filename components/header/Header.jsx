@@ -168,7 +168,7 @@ const Header = () => {
 
                     <li className="rd-nav-item">
                       <Link href="/about" className="rd-nav-link">
-                        About us
+                        About Us
                       </Link>
                     </li>
                     <li className="rd-nav-item  rd-navbar--has-dropdown rd-navbar-submenu">
