@@ -29,9 +29,9 @@ const Home = () => {
     }
   };
   useEffect(() => {
-    setTimeout(() => {
+   
       loadScripts();
-    }, 2000);
+ 
   }, []);
 
   return (
