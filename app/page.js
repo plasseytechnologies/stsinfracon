@@ -44,8 +44,6 @@ const Home = () => {
       ) : (
         <>
           <HeroBanner />
-          {/* About Company*/}
-          {/* <AboutCompany /> */}
           {/* What we offer*/}
           <WeOffer />
           {/* Section CTA*/}*
@@ -64,18 +62,19 @@ const Home = () => {
                   <div className="box-team">
                     <h3 className="oh-desktop">
                       <span className="d-inline-block wow slideInUp">
-                        Our team
+                        Our Leaders
                       </span>
                     </h3>
                     <h6
                       className="title-style-1 wow fadeInLeft"
                       data-wow-delay=".1s"
                     >
-                      Professional Civil engineering
+                      The best in their field
                     </h6>
                     <p className="wow fadeInRight" data-wow-delay=".2s">
-                      We are a team of dedicated and professional engineers and
-                      project managers ready to help.
+                      Ever since its inception, STS Infracon has lead by some of
+                      the best veterans the civil engineering industry has to
+                      offer.
                     </p>
                     <div className="group-sm oh-desktop">
                       <div className="button-style-1 wow slideInLeft">
@@ -161,7 +160,7 @@ const Home = () => {
             </div>
           </section>
           {/* Suscribe to our newsletter*/}
-          <NewsLetter />
+          {/* <NewsLetter /> */}
         </>
       )}
 

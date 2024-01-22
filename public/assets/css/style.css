@@ -7213,7 +7213,7 @@ p + .quote-classic {
 
 .footer-classic-header {
 	position: relative;
-	padding-top: 50px;
+	padding-top: 25px;
 	padding-bottom: 25px;
 }
 
@@ -7308,8 +7308,8 @@ p + .quote-classic {
 		border-right: 1px solid rgba(255, 255, 255, 0.1);
 	}
 	.footer-classic-panel {
-		padding-top: 40px;
-		padding-bottom: 40px;
+		/* padding-top: 40px;
+		padding-bottom: 40px; */
 	}
 	.footer-classic-list {
 		text-align: left;
@@ -7317,7 +7317,7 @@ p + .quote-classic {
 		break-inside: avoid;
 		-moz-column-gap: 30px;
 		-webkit-column-gap: 30px;
-		max-width: 320px;
+		/* max-width: 320px; */
 		margin-bottom: -8px;
 	}
 	.footer-classic-list > li {

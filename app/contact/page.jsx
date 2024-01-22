@@ -13,7 +13,7 @@ const Contact = () => {
         <section className="bg-gray-7">
           <div className="breadcrumbs-custom box-transform-wrap context-dark">
             <div className="container">
-              <h3 className="breadcrumbs-custom-title">Contacts</h3>
+              <h3 className="breadcrumbs-custom-title">Contact Us</h3>
               <div className="breadcrumbs-custom-decor" />
             </div>
             <div
@@ -31,7 +31,7 @@ const Contact = () => {
               {/* <li>
                 <a href="#">Pages</a>
               </li> */}
-              <li className="active">Contacts</li>
+              <li className="active">Contact</li>
             </ul>
           </div>
         </section>
@@ -41,7 +41,7 @@ const Contact = () => {
             <div className="row row-60 justify-content-center">
               <div className="col-lg-8">
                 <h4 className="text-spacing-25 text-transform-none">
-                  Get in Touch
+                  Get in Touch!
                 </h4>
                 <form
                   className="rd-form rd-mailform"
@@ -78,7 +78,7 @@ const Contact = () => {
                           data-constraints="@Email @Required"
                         />
                         <label className="form-label" htmlFor="contact-email-5">
-                          Your E-mail*
+                          E-mail*
                         </label>
                       </div>
                     </div>
@@ -107,7 +107,7 @@ const Contact = () => {
                           data-constraints="@Numeric"
                         />
                         <label className="form-label" htmlFor="contact-phone-5">
-                          Your Phone*
+                          Phone Number*
                         </label>
                       </div>
                     </div>
@@ -141,7 +141,7 @@ const Contact = () => {
                 <div className="aside-contacts">
                   <div className="row row-30">
                     <div className="col-sm-6 col-lg-12 aside-contacts-item">
-                      <p className="aside-contacts-title">Get social</p>
+                      <p className="aside-contacts-title">Social Media</p>
                       <ul className="list-inline contacts-social-list list-inline-sm">
                         <li>
                           <a className="icon mdi mdi-facebook" href="#" />
@@ -187,8 +187,8 @@ const Contact = () => {
                         </div>
                         <div className="unit-body">
                           <p className="address">
-                            Registered office: 307, 3rd Floor, Eros City Square,
-                            Rosewood City, <br className="d-md-none" />
+                            307, 3rd Floor, Eros City Square, Rosewood City,{" "}
+                            <br className="d-md-none" />
                             Sector 49-50, Gurugram, Haryana-122018
                           </p>
                         </div>

@@ -15,13 +15,13 @@ const CompanyCTA = () => {
               <div className="col-sm-7 col-md-6 col-lg-5">
                 <div className="cta-classic">
                   <h4 className="cta-classic-title wow fadeInLeft">
-                    Creating efficient infrastructure since 1994
+                    Delivering The Best of Infrastructure Before Deadlines
                   </h4>
                   <p
                     className="cta-classic-text wow fadeInRight"
                     data-wow-delay=".1s"
                   >
-                    We provide efficient civil engineering solutions.
+                    Our efficiency has no match.
                   </p>
                   <Link
                     className="button button-lg button-primary button-winona wow fadeInUp"

@@ -16,7 +16,7 @@ const HeroBanner = () => {
             <div className="swiper-slide-caption section-md">
               <div className="container">
                 <div className="row">
-                  <div className="col-sm-8 col-md-7 col-lg-6 offset-lg-1 offset-xxl-0  mt-10">
+                  <div className="col-sm-8 col-md-7 col-lg-6 offset-lg-1 offset-xxl-0   sm:mt-10">
                     <p
                       className="text-2xl font-bold text-[#ef7c14]"
                       data-caption-animate="slideInDown"
@@ -62,7 +62,7 @@ const HeroBanner = () => {
             <div className="swiper-slide-caption section-md">
               <div className="container">
                 <div className="row">
-                  <div className="col-sm-9 col-md-8 col-xl-6 offset-lg-1 offset-xxl-0">
+                  <div className="col-sm-9 col-md-8 col-xl-6 offset-lg-1 offset-xxl-0  sm:mt-10">
                     <p
                       className="text-2xl font-bold text-[#ef7c14]"
                       data-caption-animate="slideInDown"
@@ -110,7 +110,7 @@ const HeroBanner = () => {
             <div className="swiper-slide-caption section-md">
               <div className="container">
                 <div className="row">
-                  <div className="col-sm-8 col-md-7 col-xl-6 offset-lg-1 offset-xxl-0">
+                  <div className="col-sm-8 col-md-7 col-xl-6 offset-lg-1 offset-xxl-0 pt-10">
                     <p
                       className="text-2xl font-bold text-[#ef7c14]"
                       data-caption-animate="slideInDown"
