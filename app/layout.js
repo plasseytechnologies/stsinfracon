@@ -20,7 +20,11 @@ export default function RootLayout({ children }) {
         <title>STS INFRACON PRIVATE LIMITED</title>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta charSet="utf-8" />
-        <link rel="icon" href="/assets/images/Logo-2-png" type="image/x-icon" />
+        <link
+          rel="icon"
+          href="/assets/images/STS-logo.png"
+          type="image/x-icon"
+        />
 
         {/* Stylesheets*/}
 
@@ -35,7 +39,7 @@ export default function RootLayout({ children }) {
       </head>
 
       <body style={{ overflowX: "hidden" }}>
-        <Header />
+        {/* <Header /> */}
         {children}
         <Footer />
       </body>

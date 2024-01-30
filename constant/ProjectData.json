@@ -1,8 +1,8 @@
 [
   {
-    "category": "Airports",
+    "category": "Substation",
 
-    "slug": "Airports",
+    "slug": "substation",
     "img": [
       "/assets/images/airport.jpg",
       "/assets/images/airport.jpg",
@@ -28,34 +28,32 @@
     "partner_with_us": "Collaborate with Sun Overseas to redefine airport infrastructure and elevate travel experiences. Our commitment to excellence shapes the future of air travel.",
     "ourprojects": [
       {
-        "project": "Airport Terminal Building at Raipur",
-        "location": "Raipur",
-        "price": "29 Million",
-        "icon": "icon  mdi mdi-airplane"
+        "project": "400kV GIS Substation in Patran, Punjab",
+        "location": "Punjab",
+
+        "icon": "icon  mdi mdi-power"
       },
       {
-        "project": "Airport Terminal Building at Indore",
-        "location": "Indore",
-        "price": "25 Million",
-        "icon": "icon  mdi mdi-airplane"
+        "project": "132/33kV GIS Substation at in Bhangel",
+        "location": "Bhangel, Uttar Pradesh",
+
+        "icon": "icon  mdi mdi-power"
       },
       {
-        "project": "Airport Terminal Building at Pune",
-        "location": "Pune",
-        "price": "16 Million",
-        "icon": "icon  mdi mdi-airplane"
+        "project": "132/33kV GIS Substation",
+        "location": "Mathura, Uttar Pradesh",
+        "icon": "icon  mdi mdi-power"
       },
       {
-        "project": "Airport Terminal Building at Coimbatore",
-        "location": "Coimbatore",
-        "price": "14.50 Million",
-        "icon": "icon  mdi mdi-airplane"
+        "project": "66/11kV AIS Substation",
+        "location": "Lehdo, Leh",
+        "icon": "icon  mdi mdi-power"
       }
     ]
   },
   {
-    "category": "Transmission and Distribution (Power)",
-    "slug": "Transmission-and-Distribution",
+    "category": "Railways OHE",
+    "slug": "railways-ohe",
     "img": [
       "/assets/images/airport.jpg",
       "/assets/images/airport.jpg",
@@ -81,118 +79,54 @@
     "partner_with_us": "Partner with Sun Overseas to develop advanced power transmission and distribution systems. Our commitment to sustainability and reliability drives future power networks.",
     "ourprojects": [
       {
-        "project": "Supply, Erection, Commissioning and Testing of 765 KV Reactors and Transformers for Power Grid Corporation India Limited and Crompton Greaves Ltd.",
-        "price": "285 Million",
-        "location": "",
-        "icon": "icon  mdi mdi-fire"
+        "project": "Railways OHE from Gonda Kachery ",
+
+        "location": "Burhwal, Uttar Pradesh",
+        "icon": "icon  mdi mdi-train"
       },
       {
-        "project": "Vemagiri 765/400 KV GIS",
-        "location": "Vemagiri",
-        "price": "87.6 Million",
-        "icon": "icon  mdi mdi-fire"
+        "project": "Railways OHE from Tihi ",
+        "location": "Dhar, Madhya Pradesh",
+
+        "icon": "icon  mdi mdi-train"
       },
       {
-        "project": "Orai 765/400 KV GIS",
-        "location": "Orai",
-        "price": "83.3 Million",
-        "icon": "icon  mdi mdi-fire"
+        "project": "Railways OHE from Mhow",
+        "location": "Patalpani, Madhya Pradesh",
+
+        "icon": "icon  mdi mdi-train"
       },
       {
-        "project": "Kameng Hydro Mechanical Package for NEEPCO",
-        "price": "78 Million",
-        "location": "Kameng",
-        "icon": "icon  mdi mdi-fire"
+        "project": "Railways OHE",
+
+        "location": " Pratapgarh, Pirthiganj, Gaura & Jhangai Stations, Uttar Pradesh",
+        "icon": "icon  mdi mdi-train"
       },
       {
-        "project": "Dehar 400/220 KV GIS",
-        "location": "Dehar",
-        "icon": "icon  mdi mdi-fire",
-        "price": "64.3 Million"
+        "project": "Railways EPC project",
+        "location": "Sindri, Jharkhand",
+        "icon": "icon  mdi mdi-train"
       },
       {
-        "project": "Koteshwar 765/400 KV GIS",
-        "location": "Koteshwar",
-        "icon": "icon  mdi mdi-fire",
-        "price": "56.6 Million"
+        "project": "Railways OHE AC loco trip shed ",
+        "location": "Jabalpur & Katni, Madhya Pradesh",
+        "icon": "icon  mdi mdi-train"
       },
       {
-        "project": "Padghe 765/400 KV GIS",
-        "location": "Padghe",
-        "icon": "icon  mdi mdi-fire",
-        "price": "50.5 Million"
+        "project": "Railways OHE ",
+        "location": "Azamgarh, Uttar Pradesh",
+        "icon": "icon  mdi mdi-train"
       },
       {
-        "project": "Vadodara 765/400 KV",
-        "location": "Vadodara",
-        "icon": "icon  mdi mdi-fire",
-        "price": "42.5 Million"
-      },
-      {
-        "project": "Aligarh 765/400 KV GIS",
-        "location": "Aligarh",
-        "icon": "icon  mdi mdi-fire",
-        "price": "25.5 Million"
-      },
-      {
-        "project": "Agra 400/132 KV GIS",
-        "location": "Agra",
-        "icon": "icon  mdi mdi-fire",
-        "price": "22.4 Million"
-      },
-      {
-        "project": "Jammu and Kashmir 220 KV GIS",
-        "location": "Jammu and Kashmir",
-        "icon": "icon  mdi mdi-fire",
-        "price": "16.6 Million"
-      },
-      {
-        "project": "Silchar and MISA 400 KV GIS",
-        "location": "Silchar",
-        "icon": "icon  mdi mdi-fire",
-        "price": "15.1 Million"
-      },
-      {
-        "project": "Thiruvalam 765 KV GIS",
-        "location": "Thiruvalam",
-        "icon": "icon  mdi mdi-fire",
-        "price": "13.8 Million"
-      },
-      {
-        "project": "Preet Vihar 220 KV GIS",
-        "location": "Preet Vihar",
-        "icon": "icon  mdi mdi-fire",
-        "price": "10.4 Million"
-      },
-      {
-        "project": "Budella 220 KV GIS",
-        "location": "Budella",
-        "icon": "icon  mdi mdi-fire",
-        "price": "8.4 Million"
-      },
-      {
-        "project": "ADDL Pandoh 132 KV GIS",
-        "location": "ADDL Pandoh",
-        "icon": "icon  mdi mdi-fire",
-        "price": "3.15 Million"
-      },
-      {
-        "project": "Chambi 132 KV GIS",
-        "location": "Chambi",
-        "icon": "icon  mdi mdi-fire",
-        "price": "0.96 Million"
-      },
-      {
-        "project": "Pandoh 132 KV GIS",
-        "location": "Pandoh",
-        "icon": "icon  mdi mdi-fire",
-        "price": "0.8 Million"
+        "project": "Railways OHE ",
+        "location": "Unchahar, Uttar Pradesh",
+        "icon": "icon  mdi mdi-train"
       }
     ]
   },
   {
-    "category": "Roads and Highways",
-    "slug": "Roads-and-Highways",
+    "category": "LCNG Stations",
+    "slug": "lncng-stations",
     "img": [
       "/assets/images/airport.jpg",
       "/assets/images/airport.jpg",
@@ -221,174 +155,14 @@
     "partner_with_us": "Partner with Sun Overseas to embark on road and highway projects that enhance connectivity and promote socio-economic development. Our commitment to quality, innovation, and sustainability ensures the successful delivery of infrastructure that shapes the future of transportation.",
     "ourprojects": [
       {
-        "project": "Mahatma Gandhi Setu over Ganga River",
-        "price": "212.70 Million"
-      },
-      { "project": "Jammu Road and Tunnel Project", "price": "206 Million" },
-      { "project": "Angul Sambalpur Road Project", "price": "193 Million" },
-      {
-        "project": "Development of four laning of Muzaffarnagar - Haridwar Highway in the state of Uttar Pradesh and Uttarakhand",
-        "price": "114 Million "
+        "project": "LCNG Stations ",
+        "location": "Kadapa, Andhra Pradesh"
       },
       {
-        "project": "Construction of four laning of Bareilly - Sitapur Highway in the state of Uttar Pradesh ",
-        "price": "144 Million "
+        "project": "COCO Station",
+        "location": "Menakuru, Andhra Pradesh"
       },
-      {
-        "project": "Construction of four laning of Haridwar - Dehradun Highway in the state of Uttarakhand ",
-        "price": "66 Million "
-      },
-      {
-        "project": "Balachera - Harangajo Assam Road Project ",
-        "price": "47 Million "
-      },
-      {
-        "project": "Four Lanning of Karwar To Dangiyavas Section Jodhpur Ring Road Project ",
-        "price": "40 Million "
-      },
-      {
-        "project": "Four Lane Of Rampur Bypass Project ",
-        "price": "25 Million "
-      },
-      {
-        "project": "Design and Construction of Raw Water Tunnel,Raigad ",
-        "price": "127.10 Million "
-      }
+      { "project": "LCNG Stations ", "location": "Shivamogga, Karnataka" }
     ]
-  },
-  {
-    "category": "Oil and Gas",
-    "slug": "Oil-and-Gas",
-    "img": [
-      "/assets/images/airport.jpg",
-      "/assets/images/airport.jpg",
-      "/assets/images/airport.jpg",
-      "/assets/images/airport.jpg"
-    ],
-    "introduction": "The oil and gas industry plays a crucial role in supplying energy, fuel, and raw materials for various sectors, contributing significantly to the global economy. Sun Overseas makes use of environmentally-conscious, innovative methods to explore, extract, and refine oil and gas.",
-    "expertise": {
-      "Economic Contribution": {
-        "description": "Our contributions to the oil and gas industry significantly improve the economy by fulfilling energy demands across sectors."
-      },
-      "Resource Utilization": {
-        "description": "We optimize resource utilization by employing efficient extraction, refining, and distribution methods."
-      },
-      "Partner with Us": {
-        "description": "Collaborate with Sun Overseas to harness the potential of the oil and gas sector. Our expertise ensures efficient resource utilization and economic contributions."
-      }
-    },
-    "impact": {
-      "Economic Contribution": "Our contributions to the oil and gas industry significantly impact the global economy by fulfilling energy demands across sectors.",
-      "Resource Utilization": "We optimize resource utilization by employing efficient extraction, refining, and distribution methods."
-    },
-    "partner_with_us": "Collaborate with Sun Overseas to harness the potential of the oil and gas sector. Our expertise ensures efficient resource utilization and economic contributions.",
-    "ourprojects": [
-      { "project": "Assam Renewal Project for ONGC", "price": "476 Million" },
-      {
-        "project": "API-6D GATE Valves Supply for IOCL",
-        "price": "2.00 Million"
-      },
-      { "project": "SMPL- Debottlenecking Project", "price": "1.2 Million" },
-      { "project": "CBR- Trichy Pipeline Project", "price": "1 Million" }
-    ]
-  },
-  {
-    "category": "Railways and Metro",
-    "slug": "Railways-and-Metro",
-    "img": [
-      "/assets/images/airport.jpg",
-      "/assets/images/airport.jpg",
-      "/assets/images/airport.jpg",
-      "/assets/images/airport.jpg"
-    ],
-    "introduction": "Railways and metro systems are pivotal in providing efficient and reliable transportation, connecting regions, and enhancing travel experience for millions of commuters. Sun Overseas has successfully completed several large-scale metropolitan railway projects, having established entire network zones over sizable areas and even entire cities.",
-    "expertise": {
-      "Railway Networks": {
-        "description": "We specialize in the construction, expansion, and modernization of railway networks, fostering improved connectivity"
-      },
-      "Metro Systems": {
-        "description": "Our expertise includes designing and developing metro systems that optimize urban transportation."
-      },
-      "Platforms and Terminals": {
-        "description": "Sun Overseas specializes in the construction of platforms and terminals of metro stations."
-      }
-    },
-    "impact": {
-      "Enhanced Connectivity": "Our projects have significantly improved connectivity and accessibility, linking regions and facilitating efficient travel for commuters.",
-      "Urban Transportation": "By revolutionizing metro systems, we enhance urban transportation experiences, easing daily commutes and reducing congestion."
-    },
-    "partner_with_us": "Partner with Sun Overseas to redefine rail and metro networks. Our commitment to innovation ensures the development of efficient and modern transportation systems.",
-    "ourprojects": [
-      { "project": "Chennai Metro", "price": "580 Million" },
-      {
-        "project": "Kolkata Metro Rail Project (Underground and Water Tunnel)",
-        "price": "198 Million"
-      },
-      { "project": "Bangalore Metro Project", "price": "160 Million" },
-      {
-        "project": "Mathura Jhansi Railway Project",
-        "price": "115.30 Million"
-      },
-      { "project": "CC-07 Delhi Metro", "price": "102 Million" },
-      {
-        "project": "Aditya-Khadakpur Railway Project (PKG-2)",
-        "price": "85.84 Million"
-      },
-      { "project": "Secunderabad Railway Project", "price": "71.40 Million" },
-      {
-        "project": "Aditya-Khadakpur Railway Project (pkg-1)",
-        "price": "71 Million"
-      },
-      {
-        "project": "Chappra-Allahabad Railway Project",
-        "price": "61.60 Million"
-      },
-      { "project": "Verna-Thokur Railway Project", "price": "48.87 Million" },
-      {
-        "project": "Construction of Railway Tunnels for North Eastern Railway",
-        "price": "48 Million"
-      },
-      { "project": "Hospet-Hubli Railway Project", "price": "36.20 Million" },
-      {
-        "project": "Dwarka Underground Metro Project for DMRC",
-        "price": "33 Million"
-      },
-      {
-        "project": "Construction of Railway Tunnels at Jaipur",
-        "price": "12 Million"
-      },
-      { "project": "Bangalore Metro EandM Project", "price": "24 Million" },
-      {
-        "project": "Kanpur Metro 3rd Rail Electrification Project",
-        "price": "61 Million"
-      }
-    ]
-  },
-  {
-    "category": "Irrigation",
-    "slug": "Irrigation",
-    "img": [
-      "/assets/images/airport.jpg",
-      "/assets/images/airport.jpg",
-      "/assets/images/airport.jpg",
-      "/assets/images/airport.jpg"
-    ],
-    "introduction": "Irrigation systems are vital for agricultural development, providing water to crops and ensuring food security by optimizing water usage in farming. Sun Overseas has accomplished several irrigation and canal projects that have improved food security and the lives of farmers in general.",
-    "expertise": {
-      "Irrigation Systems": {
-        "description": "We specialize in developing efficient and sustainable irrigation systems, including optimizing water usage in agriculture. "
-      },
-      "Canal Projects": {
-        "description": "We have led major canal projects, improving the ease of irrigation and increasing the quality of waterways through innovative techniques. "
-      },
-      "Sustainable Agriculture": {
-        "description": "Our irrigation systems make use of advanced techniques to remain environment-friendly. "
-      }
-    },
-    "impact": {
-      "Aricultural Growth": "Our irrigation systems contribute to agricultural growth by ensuring adequate water supply for crops, thereby enhancing food security.",
-      "Water Conservation": "Efficient water usage in irrigation reduces wastage and promotes sustainability in agriculture."
-    },
-    "partner_with_us": "Collaborate with Sun Overseas to develop innovative irrigation systems. Our expertise ensures sustainable water management practices in agriculture."
   }
 ]

@@ -1,4 +1,5 @@
 "use client";
+import Header from "@/components/header/Header";
 import { AllScriptLoad } from "@/constant/scriptFiles";
 import Link from "next/link";
 import React, { useEffect } from "react";
@@ -9,10 +10,11 @@ const Contact = () => {
   }, []);
   return (
     <div>
+      <Header />
       <div>
         <section className="bg-gray-7">
           <div className="breadcrumbs-custom box-transform-wrap context-dark">
-            <div className="container">
+            <div className="container pt-10 sm:pt-0">
               <h3 className="breadcrumbs-custom-title">Contact Us</h3>
               <div className="breadcrumbs-custom-decor" />
             </div>

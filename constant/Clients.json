@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Central Organization for Railway Electrification (CORE)",
+    "para": "",
+    "logo": "/assets/images/CORE.jpg"
+  },
+  {
+    "name": "Northern Railway (NR)",
+    "para": "",
+    "logo": "/assets/images/NR.jpg"
+  },
+  {
+    "name": "North Eastern Railway (NER)",
+    "para": "",
+    "logo": "/assets/images/NER.jpg"
+  },
+  {
+    "name": "Western Railway (WR)",
+    "para": "",
+    "logo": "/assets/images/WR.jpg"
+  },
+  {
+    "name": "East Central Railway (ECR)",
+    "para": "",
+    "logo": "/assets/images/ECR.jpg"
+  },
+  {
+    "name": "U.P Power Transmission Corporation Limited (UPPTCL)",
+    "para": "",
+    "logo": "/assets/images/UPPTCL.png"
+  },
+  {
+    "name": "Patran Transmission Company Limited (PTCL)",
+    "para": "",
+    "logo": "/assets/images/PTCL.png"
+  },
+  {
+    "name": "Ladakh Power Development Department (LPDD)",
+    "para": "",
+    "logo": "/assets/images/LPDD.png"
+  },
+  {
+    "name": "TBEA Energy (India) Private Limited (TBEA)",
+    "para": "",
+    "logo": "/assets/images/TBEA.png"
+  },
+  {
+    "name": "AGP City Gas Private Limited (AGP)",
+    "para": "",
+    "logo": "/assets/images/AGP.png"
+  }
+]

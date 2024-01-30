@@ -8,7 +8,7 @@ const Loader = () => {
           <div className="pen">
             <div className="">
               <img
-                src="/assets/images/Logo-2.png"
+                src="/assets/images/STS-logo.png"
                 alt
                 style={{ maxWidth: "280px", maxHeight: "242px" }}
               />

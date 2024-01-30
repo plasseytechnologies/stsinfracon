@@ -1,4 +1,5 @@
 "use client";
+import Header from "@/components/header/Header";
 import { AllScriptLoad } from "@/constant/scriptFiles";
 import Link from "next/link";
 import React, { useEffect } from "react";
@@ -9,6 +10,7 @@ const Blogs = () => {
   }, []);
   return (
     <div>
+      <Header />
       <div>
         <section className="section section-lg bg-default">
           <div className="container">

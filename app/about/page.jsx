@@ -5,6 +5,7 @@ import { AllScriptLoad } from "@/constant/scriptFiles";
 import React, { useEffect } from "react";
 import TeamData from "../../constant/TeamData.json";
 import Link from "next/link";
+import Header from "@/components/header/Header";
 const AboutUs = () => {
   useEffect(() => {
     AllScriptLoad();
@@ -25,9 +26,10 @@ const AboutUs = () => {
         <meta charSet="utf-8" />
       </head>
       <div>
+        <Header />
         <section className="bg-gray-7">
           <div className="breadcrumbs-custom box-transform-wrap context-dark">
-            <div className="container">
+            <div className="container pt-10 sm:pt-0">
               <h3 className="breadcrumbs-custom-title">About Us</h3>
               <div className="breadcrumbs-custom-decor" />
             </div>
@@ -55,7 +57,7 @@ const AboutUs = () => {
               id="tabs-4"
             >
               <div className="col-lg-4 col-xl-3">
-                <h5 className="text-spacing-200">5+ years of experience</h5>
+                <h5 className="text-spacing-200">Civil Engineering Experts</h5>
                 <ul className="nav list-category list-category-down-md-inline-block">
                   <li
                     className="list-category-item wow fadeInRight"
@@ -90,16 +92,7 @@ const AboutUs = () => {
                     data-wow-delay=".1s"
                   >
                     <a href="#tabs-4-2" data-toggle="tab">
-                      Our Mission
-                    </a>
-                  </li>
-                  <li
-                    className="list-category-item wow fadeInRight"
-                    role="presentation"
-                    data-wow-delay=".2s"
-                  >
-                    <a href="#tabs-4-3" data-toggle="tab">
-                      Our Goals
+                      Our Mission & Vision
                     </a>
                   </li>
                 </ul>
@@ -114,46 +107,40 @@ const AboutUs = () => {
                 {/* Tab panes*/}
                 <div className="tab-content tab-content-1">
                   <div className="tab-pane fade show active" id="tabs-4-1">
-                    <h4>
-                      STS INFRACON PRIVATE LIMITED: Earlier Stroytech Service
-                      India Pvt Ltd
-                    </h4>
-                    <p>
-                      STS INFRACON PRIVATE LIMITED: Earlier Stroytech Service
-                      India Pvt Ltd In conjunction with the objective, TUIPL
-                      subsequently worked out a meticulous customized plan for
-                      Package-3, resulting thereof M/s STS Infracon Private
-                      Limited has achieved laying of 3749 MT of Bituminous
-                      concrete (2 lane length in 3.241 Km) with in a record time
-                      of 18 hours.{" "}
+                    <h4>Overview</h4>
+                    <p className="text-justify">
+                      STS Infracon Private Limited is a reputed Engineering,
+                      Procurement, Construction (EPC) company incorporated in
+                      2018. With a team of young, energetic professionals driven
+                      by a passion for engineering and construction, STS
+                      Infracon has shaken industry norms by providing innovative
+                      solutions to highly complex projects and meeting tight
+                      deadlines with awe-inspiring efficiency.
                     </p>
-                    <p>
-                      The exemplary motivation displayed by STSIPL’s team
-                      towards achieving the challenge while overcoming all
-                      hurdles during implementation has led to successful
-                      delivery of the stiff target set by TUIPL. It is pertinent
-                      to mention that your team’s contribution to TUIPL’s
-                      overall target has been significant, resulting in the
-                      fastest recorded output in the history of NHAI projects in
-                      India.{" "}
+
+                    <p className="text-justify">
+                      Consistently outperforming industry benchmarks, STS
+                      Infracon has a clean, green, and safe work culture
+                      inspiring dedication for effecting change in the
+                      infrastructural landscape of India.
                     </p>
-                    <h5 className="my-3">Proficiencies: </h5>
+
+                    <h5 className="mb-3 mt-5">Where We Excel: </h5>
                     <div class="flex flex-col justify-start p-4 sm:w-full w-full">
-                      <ul class="list-disc">
-                        <li className="mb-2">Road and Highway Projects</li>
-                        <li className="mb-2">Railway and Metro Projects</li>
-                        <li className="mb-2">Airport Projects</li>
-                        <li className="mb-2">Irrigation Projects</li>
-                        <li className="mb-2">
-                          Transmission Line, Sub-station and Distribution Works
-                        </li>
-                        <li className="mb-2">
-                          Hotel & Resorts/ Hospitals/ IT Complex / Sports
-                          Complex
-                        </li>
-                        <li className="mb-2">Shopping Malls</li>
-                        <li className="mb-2">Multistoried Buildings</li>
-                      </ul>
+                      {/* <ul class="list-disc"> */}
+                      <li className="mb-2">Road and Highway Projects</li>
+                      <li className="mb-2">Railway and Metro Projects</li>
+                      <li className="mb-2">Airport Projects</li>
+                      <li className="mb-2">Irrigation Projects</li>
+                      <li className="mb-2">
+                        Transmission Line, Sub-station and Distribution Works
+                      </li>
+                      <li className="mb-2">
+                        Hotels & Resorts/Hospitals/IT Complex/Sports Complex
+                      </li>
+                      <li className="mb-2">Shopping Malls</li>
+                      <li className="mb-2">Multistoried Buildings</li>
+                      {/* </ul> */}
                     </div>
 
                     <img
@@ -165,21 +152,30 @@ const AboutUs = () => {
                   </div>
                   <div className="tab-pane fade" id="tabs-4-2">
                     <h4>
+                      OUR <span className="text-[#ef7c14]">Vision</span>
+                    </h4>
+                    <p className="text-justify">
+                      Sustainability, efficiency, and timely delivery of
+                      projects is our vision at STS Infracon. Fueled by a
+                      passion to develop magnificent structures, our team aims
+                      to transform the structural landscape of India.
+                    </p>
+                    <h4 className="mt-10">
                       Our <span className="text-[#ef7c14]"> Mission</span>
                     </h4>
 
-                    <p>
-                      Our mission is to achieve excellence through world-class
-                      practice, international quality standards by assuring
-                      safety. Our experienced staff of engineers, supervisors,
-                      planners, consultants and material suppliers, amply
-                      supported by a large labor force, has the knowledge and
-                      ability to plan, design, supervise and construct as per
-                      the client’s needs, in addition to our facilities and
-                      workforce, continues research activities assist us
-                      substantially in serving our customers using up-to-date
-                      techniques.
+                    <p className="text-justify">
+                      Our mission is to achieve excellence through adhering to
+                      international standards of quality and delivering
+                      world-class performance.
                     </p>
+                    <p className="text-justify">
+                      We at STS Infracon, equipped with the knowledge and
+                      ability to plan, supervise, and implement with high
+                      efficiency, aim to complete projects as per any and all
+                      clients’ needs.
+                    </p>
+
                     <img
                       src="/assets/images/about-2-835x418.jpg"
                       alt
@@ -188,15 +184,6 @@ const AboutUs = () => {
                     />
                   </div>
                   <div className="tab-pane fade" id="tabs-4-3">
-                    <h4>
-                      OUR <span className="text-[#ef7c14]">GOALS</span>
-                    </h4>
-                    <p>
-                      To deliver to the client the best solutions and broaden
-                      activity base by diversifying into other infrastructure
-                      disciplines to sustain a healthy growth rate.
-                    </p>
-
                     <img
                       src="/assets/images/about-3-835x418.jpg"
                       alt
@@ -206,38 +193,53 @@ const AboutUs = () => {
                   </div>
                   <div className="tab-pane fade" id="tabs-4-4">
                     <h4>Company Background</h4>
-                    <p>
-                      <b> STS INFRACON PRIVATE LIMITED(STSIPL)</b> earlier known
-                      as Stroytech Service India Pvt Ltd is a reputable
-                      Engineering Construction and Project Management Company,
-                      incorporated on 4th April 2018 in India. STSIPL have their
-                      registered office in Gurgaon Haryana. STSIPL believes in
-                      Quality Engineering & Construction. With a varied
-                      experience in Infra projects, we aim to become first
-                      choice of Clients, vendor and employees. We believe in
-                      dedicated client approach and a continuous quest for
-                      excellence to alter the structural landscape through our
-                      several prestigious projects in the commercial &
-                      infrastructural space. We leverage our expertise and deep
-                      knowledge of every aspect to your Benefit. We put our
-                      experience and knowledge to work for you.
+                    <p className="text-justify">
+                      <b> STS INFRACON PRIVATE LIMITED(STSIPL)</b>, earlier
+                      known as Stroytech Service India Pvt. Ltd., is a reputable
+                      Engineering, Procurement, and Construction (EPC)
+                      Management Company, incorporated on 4th April 2018, in
+                      India. STSIPL has a registered office in Gurugram,
+                      Haryana. We believe in quality engineering and timely
+                      construction. Accompanied by a wealth of experience in
+                      infrastructure projects, we aim to become the first choice
+                      of clients, vendors, and those who seek to associate with
+                      us. We believe in a dedicated client-centric approach and
+                      a continuous quest for excellence. Comprised of a team of
+                      civil engineering elites determined to construct lasting
+                      edifices, the team at STS Infracon aims to upgrade the
+                      structural landscape of India through accomplishing
+                      impactful projects in the commercial and infrastructural
+                      spheres of the nation.
                     </p>
-                    <p>
+                    <p className="text-justify">
                       STS INFRACON PRIVATE LIMITED is a part of{" "}
                       <span className="text-[#ef7c14]">
                         <b> SUN OVERSEAS GROUP.</b>
-                      </span>
+                      </span>{" "}
+                      Incorporated in 1996, in India, Sun Overseas is associated
+                      with reputed Indian infrastructure companies, assisting
+                      them in locating suitable, qualified overseas partners as
+                      collaborators to execute projects in India.
                     </p>
-                    <p>
-                      SUN OVERSEAS was incorporated in 1996 in India. Since the
-                      year 2000, the organization diversifie into Consultancy
-                      Services in Infrastructure Sectors, and Initial activities
-                      consisted of fertilizers, metals, and counter trade
-                      business. SUN OVERSEAS is associated with reputed Indian
-                      Infrastructure companies, assisting them in locating
-                      suitable, qualified overseas partners as collaborators to
-                      execute projects in India.{" "}
+                    <p className="pb-4 text-black ">
+                      <b>Our Group of Companies: </b>
                     </p>
+                    <div className="flex flex-col justify-start">
+                      <ul className="list-disc">
+                        <li>
+                          <b>Sun Overseas</b>
+                        </li>
+                        <li>STS Infracon Private Limited</li>
+                        <li>Garni Foods</li>
+                        <li>Euro Sun India Private Limited</li>
+                        <li>Eurosun Healthcare</li>
+                        <li>Plassey Technologies</li>
+                        <li>Bella Mente Edu Solutions Private Limited</li>
+                        <li>Adhyayanam Academy</li>
+                        <li>Prasun Developers</li>
+                      </ul>
+                    </div>
+
                     <img
                       src="/assets/images/about-4-835x418.jpg"
                       alt
@@ -245,60 +247,25 @@ const AboutUs = () => {
                       height={418}
                     />
                   </div>
-                  <div className="tab-pane fade " id="tabs-5-5">
+                  <div className="tab-pane fade" id="tabs-5-5">
                     <h4>What We Do</h4>
-                    <p>
-                      We Build Highways, Structures, and other infrastructure
-                      projects thus transforming cityscapes and landscapes with
-                      structures of immense opulence. The company’s capabilities
-                      span the entire spectrum of construction – Civil
-                      engineering – and its services extend to all core sector
-                      industries and infrastructure projects. The foundation of
-                      our success is dedication & timely service to our clients
-                      and inculcates a culture of high spirit amongst our vendor
-                      and STS team.
+                    <p className="text-justify">
+                      Led by a team of elites in the field of infrastructure and
+                      construction, we at STS Infracon have built highways,
+                      metropolitan railway networks, airport terminals,
+                      multistory buildings, and standard railway networks, among
+                      other infrastructure projects. The completion of our
+                      projects has resulted in the transformation of cityscapes
+                      and landscapes with structures of immense opulence.
                     </p>
-                    <p>
-                      SUN OVERSEAS provides a ONE-WINDOW solution for a
-                      consultancy from concept to completion including
-                      preparation of Bids against global tenders issued by both
-                      private and public sectors.
+                    <p className="text-justify">
+                      The capabilities of our team at STS Infracon span the
+                      entire spectrum of civil engineering. Thus, our services
+                      extend to all core sector industries and infrastructure
+                      projects. The foundation of our success is dedication and
+                      timely service to our clients, inculcating a culture of
+                      high spirit amongst our vendors and associates.
                     </p>
-                    <p>
-                      SUN OVERSEAS also represents Global Manufacturers of
-                      various equipment used in Infrastructure projects to
-                      market their products to various clients.
-                    </p>
-                    <h6 className="my-3 w-80 sm:w-full">
-                      Various services of{" "}
-                      <span className="text-[#ef7c14] pb-5">SUNOVERSEAS:</span>
-                    </h6>
-                    <div className=" flex flex-col justify-start p-x-3">
-                      <ul className="list-disc p-2">
-                        <li> Marketing, Business Development & Bidding</li>
-                        <li> Support for Legal & Financial Services</li>
-                        <li> Engineering, Design and Technology Support</li>
-                        <li>Manpower Management</li>
-                        <li>Project Monitoring</li>
-                        <li>Logistics Management</li>
-                      </ul>
-                    </div>
-
-                    <p className="pb-2 text-black">
-                      <b>Group Companies: </b>
-                    </p>
-                    <div className="flex flex-col justify-start">
-                      <ul className="list-disc">
-                        <li>
-                          <b>STS INFRACON PRIVATE LIMITED</b>
-                        </li>
-                        <li>EUROSUN INDIA PVT. LTD</li>
-                        <li>PRASUN DEVELOPERS PVT. LTD.</li>
-                        <li> PLASSEY TECHNOLOGIES PVT. LTD.</li>
-                        <li>BELLAMENTE EDU SOLUTIONS PVT. LTD.</li>
-                        <li>GARNI FOODS PVT. LTD.</li>
-                      </ul>
-                    </div>
                     <img
                       src="/assets/images/about-4-835x418.jpg"
                       alt
@@ -378,98 +345,21 @@ const AboutUs = () => {
           </div>
         </div>
       </section> */}
-        {/* Our Team*/}
-        <section className="section section-lg section-bottom-md-70 bg-default">
-          <div className="container">
-            <h3 className="oh">
-              <span
-                className="d-inline-block wow slideInUp"
-                data-wow-delay="0s"
-              >
-                Our team
-              </span>
-            </h3>
-            <div className="row row-lg row-40 justify-content-center ">
-              {TeamData.map((team) => (
-                <>
-                  <div
-                    className={`col-sm-6 col-lg-6 wow ${team.className}`}
-                    data-wow-delay=".2s"
-                    data-wow-duration="1s"
-                    role="button"
-                  >
-                    <article className="team-modern">
-                      <div className="team-modern-figure">
-                        <img src={team.image} alt width={270} height={236} />
-                      </div>
-                      <div className="team-modern-caption">
-                        <h6 className="team-modern-name">
-                          <p>{team.name}</p>
-                        </h6>
-                        <div className="team-modern-status">
-                          {team.position}
-                        </div>
-                        {/* <ul className="list-inline team-modern-social-list text-[#ef7c14]">
-                    <li>
-                     {team.paragraph}
-                    </li>
-                  </ul> */}
-                      </div>
-                    </article>
-                  </div>
-                </>
-              ))}
-            </div>
-          </div>
-        </section>
         {/* Our History*/}
-        <section className="section section-lg bg-gray-100 text-left section-relative">
+        <section className="section section-lg bg-gray-100 text-left section-relative ">
           <div className="container">
             <div className="row row-60 justify-content-center justify-content-xxl-between">
               <div className="col-lg-6 col-xxl-5 position-static">
                 <h3>Our history</h3>
                 <div className="tabs-custom" id="tabs-5">
                   <div className="tab-content tab-content-1">
-                    <div className="tab-pane fade" id="tabs-5-1">
+                    <div className="tab-pane fade active show" id="tabs-5-1">
                       <h5 className="font-weight-normal text-transform-none text-spacing-75">
-                        Establishment of Civil Group &amp; first successful
-                        projects
+                        Celebrating Over 25 Years of Effecting Change
                       </h5>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Suspendisse interdum consectetur
-                      </p>
-                    </div>
-                    <div className="tab-pane fade" id="tabs-5-2">
-                      <h5 className="font-weight-normal text-transform-none text-spacing-75">
-                        Partnering with national construction companies
-                      </h5>
-                      <p>
-                        Scelerisque mauris pellentesque pulvinar pellentesque
-                        habitant morbi. Blandit cursus risus at ultrices mi
-                        tempus imperdiet. A cras semper auctor neque vitae.{" "}
-                      </p>
-                    </div>
-                    <div className="tab-pane fade" id="tabs-5-3">
-                      <h5 className="font-weight-normal text-transform-none text-spacing-75">
-                        First governmental projects and engineering solutions
-                        awards
-                      </h5>
-                      <p>
-                        Eu scelerisque felis imperdiet proin fermentum leo vel
-                        orci. Vulputate enim nulla aliquet porttitor lacus
-                        luctus accumsan tortor posuere.{" "}
-                      </p>
-                    </div>
-                    <div className="tab-pane fade show active" id="tabs-5-4">
-                      <h5 className="font-weight-normal text-transform-none text-spacing-75">
-                        Celebrating 25 years of Civil Group’s success
-                      </h5>
-                      <p>
-                        Cursus eget nunc scelerisque viverra mauris in aliquam
-                        sem fringilla. Viverra nibh cras pulvinar mattis nunc
-                        sed. Amet consectetur adipiscing{" "}
+                        Under the aegis of Sun Overseas, STS Infracon has become
+                        a symbol of engineering success in India.
                       </p>
                     </div>
                   </div>
@@ -532,10 +422,55 @@ const AboutUs = () => {
             </div>
           </div>
         </section>
+        {/* Our Team*/}
+        <section className="section section-lg section-bottom-md-70 bg-default">
+          <div className="container">
+            <h3 className="oh flex justify-center">
+              <span
+                className="d-inline-block wow slideInUp "
+                data-wow-delay="0s"
+              >
+                Our team
+              </span>
+            </h3>
+            <div className=" justify-start mt-5 ">
+              {TeamData.map((team) => (
+                <div className="row row-lg row-40 bg-[#edecec] p-10">
+                  <div
+                    className={`col-sm-12 col-lg-3 wow  ${team.className}`}
+                    data-wow-delay=".2s"
+                    data-wow-duration="1s"
+                    role="button"
+                  >
+                    <article className="team-modern">
+                      <div className="team-modern-figure">
+                        <img src={team.image} alt width={270} height={236} />
+                      </div>
+                      <div className="team-modern-caption">
+                        <h6 className="team-modern-name">
+                          <p>{team.name}</p>
+                        </h6>
+                        <div className="team-modern-status">
+                          {team.position}
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div className=" col-sm-12  col-lg-9">
+                    <ul className="list-inline font-semibold  text-justify text-[#323d60]">
+                      <li>{team.paragraph}</li>
+                    </ul>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Our clients*/}
-        <OurClients awards={false} />
+        {/* <OurClients awards={false} /> */}
         {/* Subscribe to Our Newsletter*/}
-        <NewsLetter />
+        {/* <NewsLetter /> */}
       </div>
     </>
   );
