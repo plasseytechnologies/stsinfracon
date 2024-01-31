@@ -3,6 +3,7 @@ import { AllScriptLoad } from "@/constant/scriptFiles";
 import React, { useEffect } from "react";
 import ProjectData from "../../constant/ProjectData.json";
 import Link from "next/link";
+import Header from "@/components/header/Header";
 
 const Project = () => {
   useEffect(() => {
@@ -10,9 +11,10 @@ const Project = () => {
   }, []);
   return (
     <div>
+      <Header />
       <section className="bg-gray-7">
         <div className="breadcrumbs-custom box-transform-wrap context-dark">
-          <div className="container">
+          <div className="container pt-10 sm:pt-0">
             <h3 className="breadcrumbs-custom-title">Projects</h3>
             <div className="breadcrumbs-custom-decor" />
           </div>

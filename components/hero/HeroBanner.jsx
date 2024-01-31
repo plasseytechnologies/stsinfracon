@@ -22,7 +22,7 @@ const HeroBanner = () => {
                       data-caption-animate="slideInDown"
                       data-caption-delay={0}
                     >
-                      Serviced Offered By STS
+                      Services Offered By STS
                     </p>
                     <h3 className="oh swiper-title">
                       <span
@@ -68,7 +68,7 @@ const HeroBanner = () => {
                       data-caption-animate="slideInDown"
                       data-caption-delay={0}
                     >
-                      Serviced Offered By STS
+                      Services Offered By STS
                     </p>
                     <h3 className="oh swiper-title">
                       <span
@@ -76,7 +76,7 @@ const HeroBanner = () => {
                         data-caption-animate="slideInDown"
                         data-caption-delay={0}
                       >
-                        Fast & Efficient Services
+                        Fast & Efficient
                       </span>
                     </h3>
                     <h5
@@ -116,7 +116,7 @@ const HeroBanner = () => {
                       data-caption-animate="slideInDown"
                       data-caption-delay={0}
                     >
-                      Serviced Offered By STS
+                      Services Offered By STS
                     </p>
                     <h3 className="oh swiper-title">
                       <span

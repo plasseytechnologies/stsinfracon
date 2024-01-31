@@ -3,6 +3,7 @@ import { AllScriptLoad } from "@/constant/scriptFiles";
 import React, { useEffect } from "react";
 import ProjectData from "../../../constant/ProjectData.json";
 import Link from "next/link";
+import Header from "@/components/header/Header";
 
 const ProjectDetails = ({ params }) => {
   const slug = params.slug[0];
@@ -14,10 +15,11 @@ const ProjectDetails = ({ params }) => {
 
   return (
     <div className>
+      <Header />
       <div>
         <section className="bg-gray-7">
           <div className="breadcrumbs-custom box-transform-wrap context-dark">
-            <div className="container">
+            <div className="container pt-10 sm:pt-0">
               <h3 className="breadcrumbs-custom-title">
                 {projectsData?.category}
               </h3>
@@ -38,7 +40,7 @@ const ProjectDetails = ({ params }) => {
               <li>
                 <Link href="/projects">Projects</Link>
               </li>
-              <li className="active">Project Page</li>
+              <li className="active">Substations (AIS/GIS)</li>
             </ul>
           </div>
         </section>
@@ -156,7 +158,7 @@ const ProjectDetails = ({ params }) => {
                   <h4>{projectsData?.category}</h4>
                   <p>{projectsData?.introduction}</p>
                   <h6 className="mt-3 text-[#ef7c14] font-bold">Expertise</h6>
-                  {Object.keys(projectsData?.expertise)?.map((key) => (
+                  {Object?.keys(projectsData?.expertise)?.map((key) => (
                     <p key={key}>
                       <strong>{key}</strong>:{" "}
                       {projectsData.expertise[key].description}
@@ -170,7 +172,7 @@ const ProjectDetails = ({ params }) => {
                   ))}
                   <h6 className="my-3 text-[#ef7c14] font-bold">Impact</h6>
                   <ul>
-                    {Object.keys(projectsData.impact).map((key) => (
+                    {Object?.keys(projectsData.impact)?.map((key) => (
                       <li key={key}>
                         <strong>{key}</strong>: {projectsData.impact[key]}
                       </li>

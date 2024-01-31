@@ -119,17 +119,17 @@ const Footer = () => {
                   <ul className="footer-classic-list d-inline-block d-sm-block sm:pl-[25%]">
                     <li>
                       <a href="https://www.sunoverseas.org/" target="blank">
-                        SUN OVERSEAS
+                        Sun Overseas
                       </a>
                     </li>
                     <li>
                       <a href="https://garnifoods.com/" target="blank">
-                        GARNI FOODS
+                        Garni Foods
                       </a>
                     </li>
                     <li>
                       <a href="https://eurosunindia.com/" target="blank">
-                        EURO SUN INDIA
+                        Euro Sun India
                       </a>
                     </li>
 
@@ -138,12 +138,12 @@ const Footer = () => {
                         href="https://www.eurosunhealthcare.com/"
                         target="blank"
                       >
-                        EUROSUN HEALTHCARE
+                        Eurosun Healthcare
                       </a>
                     </li>
                     <li>
                       <a href="https://plasseytechnologies.in/" target="blank">
-                        PLASSEY TECHNOLOGIES
+                        Plassey Technologoies
                       </a>
                     </li>
                     <li>
@@ -151,17 +151,17 @@ const Footer = () => {
                         href="https://www.bellamenteschools.com/"
                         target="blank"
                       >
-                        BELLA MENTE PRESCHOOL
+                        Bella Mente Preschool
                       </a>
                     </li>
                     <li>
                       <a href="https://adhyayanamacademy.com/" target="blank">
-                        ADHYAYANAM ACADEMY
+                        Adhyayanam Academy
                       </a>
                     </li>
                     <li>
                       <a href="#" target="blank">
-                        PRASUN DEVELOPERS
+                        Prasun Developers
                       </a>
                     </li>
                   </ul>

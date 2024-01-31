@@ -9451,10 +9451,10 @@ hr + .footer-social-list {
 .team-modern {
 	position: relative;
 	text-align: center;
-	max-width: 270px;
+	max-width: 230px;
 	margin-left: auto;
 	margin-right: auto;
-	background: #ffffff;
+	background: #edecec;
 	transition: all .3s ease;
 	z-index: 1;
 }
@@ -15135,7 +15135,7 @@ html.rd-navbar-fixed-linked .page {
 	display: flex;
 	align-items: center;
 	width: 100%;
-	padding: 15px 15px 15px 0;
+	padding: 2px 15px 0px 0;
 	max-width: 260px;
 	min-width: 200px;
 	z-index: 1;
@@ -15161,7 +15161,7 @@ html.rd-navbar-fixed-linked .page {
 	display: flex;
 	max-width: 1200px;
 	justify-content: space-between;
-	padding: 13px 15px;
+	padding: 5px 15px;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 1;
@@ -15195,8 +15195,8 @@ html.rd-navbar-fixed-linked .page {
 
 @media (min-width: 1200px) {
 	.rd-navbar-modern.rd-navbar-static .rd-navbar-brand img {
-		max-width: 240px;
-		max-height: 240px;
+		max-width: 170px;
+		max-height: 73px;
 	}
 }
 
@@ -15272,8 +15272,8 @@ html.rd-navbar-fixed-linked .page {
 
 .rd-navbar-modern.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-panel, .rd-navbar-modern.rd-navbar-static.rd-navbar--is-clone .rd-navbar-panel {
 	margin-bottom: 0;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding-top: 0px;
+	padding-bottom: 4px;
 }
 
 .rd-navbar-modern.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-aside, .rd-navbar-modern.rd-navbar-static.rd-navbar--is-clone .rd-navbar-aside {

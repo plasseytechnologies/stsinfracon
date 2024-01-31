@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="section page-header">
       {/* RD Navbar*/}
-      <div className="rd-navbar-wrap" style={{ height: "144.448px" }}>
+      <div className="rd-navbar-wrap" style={{ height: "120px" }}>
         <nav
           className="rd-navbar rd-navbar-modern rd-navbar-original rd-navbar-static"
           data-layout="rd-navbar-fixed"
@@ -97,8 +97,8 @@ const Header = () => {
                   <Link className="brand" href="/">
                     <img
                       className="brand-logo-dark"
-                      src="/assets/images/Logo-2.png"
-                      style={{ height: "60px", width: "200px" }}
+                      src="/assets/images/STS-logo.png"
+                      // style={{ height: "73px", width: "170px" }}
                       alt
                     />
                   </Link>

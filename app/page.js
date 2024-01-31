@@ -15,6 +15,7 @@ import TeamData from "../constant/TeamData.json";
 import OurWork from "../constant/OurWork";
 import Link from "next/link";
 import Loader from "@/components/loader/Loader";
+import Header from "@/components/header/Header";
 
 const Home = () => {
   const [loader, setLoader] = useState(true);
@@ -42,6 +43,7 @@ const Home = () => {
         </>
       ) : (
         <>
+          <Header />
           <HeroBanner />
           {/* What we offer*/}
           <WeOffer />
@@ -71,9 +73,9 @@ const Home = () => {
                       The best in their field
                     </h6>
                     <p className="wow fadeInRight" data-wow-delay=".2s">
-                      Ever since its inception, STS Infracon has lead by some of
-                      the best veterans the civil engineering industry has to
-                      offer.
+                      Ever since its inception, STS Infracon has been led by
+                      some of the best veterans the civil engineering industry
+                      has to offer.
                     </p>
                     <div className="group-sm oh-desktop">
                       <div className="button-style-1 wow slideInLeft">
