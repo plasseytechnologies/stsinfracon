@@ -1,4 +1,5 @@
 import React from "react";
+import Clients from "../../constant/Clients.json";
 
 const OurClients = ({ award }) => {
   return (
@@ -145,32 +146,19 @@ const OurClients = ({ award }) => {
               {/* Clients Classic*/}
               <div className="clients-classic-wrap">
                 <div className="row no-gutters">
-                  <div className="col-sm-6 wow fadeInLeft">
-                    <div className="clients-classic">
-                      <a className="clients-classic-figure" href="#">
-                        <img
-                          src="/assets/images/Delhi-Metro-150x150.jpg"
-                          alt
-                          width={200}
-                          height={90}
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 wow fadeInRight">
-                    <div className="clients-classic">
-                      <a className="clients-classic-figure" href="#">
-                        <img
-                          src="/assets/images/kolkata-metro-logo-150x150.jpg"
-                          alt
-                          width={200}
-                          height={90}
-                        />
-                      </a>
-                    </div>
-                  </div>
+                  {Clients.map((item) => (
+                    <>
+                      <div className="col-sm-6 wow ">
+                        <div className="clients-classic">
+                          <a className="clients-classic-figure" href="#">
+                            <img src={item?.logo} alt width={90} height={90} />
+                          </a>
+                        </div>
+                      </div>
+                    </>
+                  ))}
                 </div>
-                <div className="row no-gutters">
+                {/* <div className="row no-gutters">
                   <div className="col-sm-6 wow fadeInLeft">
                     <div className="clients-classic">
                       <a className="clients-classic-figure" href="#">
@@ -183,33 +171,7 @@ const OurClients = ({ award }) => {
                       </a>
                     </div>
                   </div>
-                  <div className="col-sm-6 wow fadeInRight">
-                    <div className="clients-classic">
-                      <a className="clients-classic-figure" href="#">
-                        <img
-                          src="/assets/images/Rail-150x150.jpg"
-                          alt
-                          width={200}
-                          height={90}
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="row no-gutters">
-                  <div className="col-sm-6 wow fadeInLeft">
-                    <div className="clients-classic">
-                      <a className="clients-classic-figure" href="#">
-                        <img
-                          src="/assets/images/chennai-metro-logo-150x150.jpg"
-                          alt
-                          width={200}
-                          height={90}
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -218,7 +180,7 @@ const OurClients = ({ award }) => {
       {award ? (
         <section
           className="section parallax-container"
-          data-parallax-img="./assets/images/bg-counter-3.jpg"
+          data-parallax-img="/assets/images/bg-counter-3.jpg"
         >
           <div className="parallax-content section-inset-9 context-dark">
             <div className="container">

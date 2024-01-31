@@ -1,9 +1,11 @@
+import Header from "@/components/header/Header";
 import Link from "next/link";
 import React from "react";
 
 const BlogDetails = () => {
   return (
     <div>
+      <Header />
       <div>
         <section className="bg-gray-7">
           <div className="breadcrumbs-custom box-transform-wrap context-dark">
