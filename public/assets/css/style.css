@@ -11325,7 +11325,7 @@ html [class*='section-'].section-top-0 {
 }
 
 .footer-classic.context-dark p.rights, .footer-classic.bg-gray-dark p.rights, .footer-classic.bg-primary p.rights, .footer-corporate.context-dark p.rights, .footer-corporate.bg-gray-dark p.rights, .footer-corporate.bg-primary p.rights {
-	color: rgba(255, 255, 255, 0.2);
+	color: rgba(255, 255, 255, 0.8);
 }
 
 .footer-modern.context-dark, .footer-modern.bg-gray-dark, .footer-modern.bg-primary {
