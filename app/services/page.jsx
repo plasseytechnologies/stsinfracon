@@ -5,6 +5,7 @@ import Link from "next/link";
 import React, { useEffect } from "react";
 import WeOffers from "../../constant/WeOffers.json";
 import Header from "@/components/header/Header";
+import Servicess from "../../constant/Servicess.json";
 
 const Services = () => {
   useEffect(() => {
@@ -73,7 +74,7 @@ const Services = () => {
           </ul>
         </div>
       </section>
-      <OurGallery data={WeOffers} name={"Our Services"} />
+      <OurGallery data={Servicess} name={"Our Services"} />
     </div>
   );
 };

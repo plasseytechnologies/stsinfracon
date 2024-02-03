@@ -1,6 +1,6 @@
 [
   {
-    "category": "Substation",
+    "category": "Substations",
     "metaTitle": "Substation Construction | STS Infracon",
     "metaDescription": "STS Infracon has accomplished several large projects that have contributed to the overall expansion of the air transportation network of India",
     "slug": "substation",
@@ -10,23 +10,20 @@
       "/assets/images/airport.jpg",
       "/assets/images/airport.jpg"
     ],
-    "introduction": "Airports serve as crucial hubs connecting cities and countries, facilitating domestic and international travel for millions of passengers and cargo shipments daily. Sun Overseas has accomplished several large projects that have contributed to the overall expansion of the air transportation network of India.",
+    "introduction": "Constructing substations is one of the pivotal elements of infrastructural development. It wouldn’t be an exaggeration to say that a nation’s growth in today’s day and age is dependent on how widespread and robust their electricity network is. At STS Infracon, we are committed to creating subsations that can weather rain and storm, providing light and warmth to homes and households.",
     "expertise": {
-      "Construction And Expansion": {
-        "description": "We construct and expand airports with modern facilities catering to the evolving demands of air travel."
+      "Power Transmission and Distribution": {
+        "description": "Through sustainable development and maintenance, we at STS Infracon provide economical solutions to delivering power and electricity."
       },
-      "Modernized Facilities": {
-        "description": "We install advanced, state-of-the-art facilities that assure a blend of comfort and efficiency."
-      },
-      "State of The Art Terminals": {
-        "description": "The airport terminals constructed by Sun Overseas are a work of modern art, attracting the attention of visitors and travellers alike."
+      "Efficient Setup": {
+        "description": "Establishing AIS/GIS substations in an efficient and fast manner is our forte."
       }
     },
     "impact": {
-      "Improved Connectivity": "Our airports enhance regional and global connectivity, fostering tourism, trade, and economic growth.",
-      "Efficiency and Safety": "Advanced infrastructure ensures operational efficiency and elevated safety standards in airport operations."
+      "Railway Network Expansion": "Developing and expanding the railway network is a guaranteed way of increasing the pace of national development.",
+      "Modernisation of Railway": "Through making use of newer techniques in railway construction, we ensure that   "
     },
-    "partner_with_us": "Collaborate with Sun Overseas to redefine airport infrastructure and elevate travel experiences. Our commitment to excellence shapes the future of air travel.",
+    "partner_with_us": "",
     "ourprojects": [
       {
         "project": "400kV GIS Substation in Patran, Punjab",
@@ -53,7 +50,7 @@
     ]
   },
   {
-    "category": "Railways OHE",
+    "category": "Railways",
     "metaTitle": "Railways Construction | STS Infracon",
     "metaDescription": "Our expertise extends beyond roads and bridges. We actively contribute to significant railway construction projects, showcasing our diverse and impactful involvement in the infrastructure sector.",
     "slug": "railways-ohe",
@@ -63,23 +60,20 @@
       "/assets/images/airport.jpg",
       "/assets/images/airport.jpg"
     ],
-    "introduction": "Efficient transmission and distribution networks are critical for supplying electricity, ensuring access for homes, industries, and infrastructure. Sun Overseas has contributed significantly to the electricity distribution network of India.",
+    "introduction": "Railways provide faster transport connectivity than roads and highways. They are a crucial mode of transport for a country. STS Infracon is committed to providing high-quality services through the implementation of new technologies to ensure the growth of the nation, as evidenced by our government partnerships",
     "expertise": {
-      "Network Development": {
-        "description": "We specialize in developing reliable transmission and distribution networks, ensuring consistent access to electricity. "
+      "High-Quality Services": {
+        "description": "We are experts on all things related to railway networks."
       },
-      "Efficient Transmission": {
-        "description": "We employ the latest techniques and technology in electricity transmission. "
-      },
-      "Consistent Distribution": {
-        "description": " Delivering electricity to individual users consistently is our motto."
+      "Innovative Techniques:": {
+        "description": "We make use of some of the latest techniques in the construction and setup of railway tracks."
       }
     },
     "impact": {
-      "Reliable Supply": "Our infrastructure guarantees reliable and consistent access to electricity for residential, industrial, and infrastructural needs.",
-      "Sustainability": "We incorporate sustainable practices to minimize environmental impact and promote eco-friendly power distribution."
+      "Railway Network Expansion": "Developing and expanding the railway network is a guaranteed way of increasing the pace of national development.",
+      "Modernisation of Railway:": "Through making use of newer techniques in railway construction, we ensure that "
     },
-    "partner_with_us": "Partner with Sun Overseas to develop advanced power transmission and distribution systems. Our commitment to sustainability and reliability drives future power networks.",
+    "partner_with_us": "",
     "ourprojects": [
       {
         "project": "Railways OHE from Gonda Kachery ",
@@ -128,7 +122,7 @@
     ]
   },
   {
-    "category": "LCNG Stations",
+    "category": "Oil & Gas",
     "metaTitle": "LCNG Station Construction | STS Infracon",
     "metaDescription": "We specialize in constructing versatile RNG stations, catering to both private and public needs. Whether it's Compressed (CNG), Liquefied (LNG), or a blend of the two (LCNG), we deliver top-notch solutions for all your RNG requirements",
     "slug": "lcng-stations",
@@ -138,26 +132,20 @@
       "/assets/images/airport.jpg",
       "/assets/images/airport.jpg"
     ],
-    "introduction": "Roads and highways form the lifeline of a nation's transportation network, enabling the movement of people and goods across regions, fostering economic development, connecting communities, and enhancing accessibility. Sun Overseas has led massive civil engineering projects involving the construction of highways, tunnels, roads, and more.",
+    "introduction": "Oil and gas are some of the most impactful energy resources on Earth. Providing steady access to both throughout the globe is a necessity for development and growth. Thus, we aim to provide oil and gas by taking on contracts that enable us to establish LCNG stations in the country.",
     "expertise": {
-      "Highway Construction": {
-        "description": "We excel in building high-quality highways that meet safety standards and ensure smooth transportation."
+      "Safety and Quality:": {
+        "description": "Our gas stations undergo rigorous quality checks and procedures to ensure safety."
       },
-      "Strategic Planning": {
-        "description": "Embedded in a comprehensive plan made by our experts, we implement cost-effective, efficient strategies every step of the way."
-      },
-      "Road Development": {
-        "description": "We undertake diverse road development projects, ranging from local roads to major thoroughfares, catering to diverse transportation needs."
-      },
-      "Diverse Road Projects": {
-        "description": "From highways and flyovers to underpasses and tunnels, we provide end-to-end solutions for all."
+      "Tailored Projects": {
+        "description": "We provide custom site plans as per the needs of our clients."
       }
     },
     "impact": {
-      "Enhanced Connectivity": "Our projects have improved connectivity between urban and rural areas, linking communities and facilitating smoother travel experience.",
-      "Economic Growth": "By providing better access and connectivity, our roads and highways have contributed to economic growth by fostering trade and commerce."
+      "Green and Clean Fuel": " LCNG stations have lead and sulphur-free green fuel, the use of which reduces pollution",
+      "Safety Standards": "Adhering to safety standards reduces the risk of mishaps and accidents"
     },
-    "partner_with_us": "Partner with Sun Overseas to embark on road and highway projects that enhance connectivity and promote socio-economic development. Our commitment to quality, innovation, and sustainability ensures the successful delivery of infrastructure that shapes the future of transportation.",
+    "partner_with_us": "",
     "ourprojects": [
       {
         "project": "LCNG Stations ",
@@ -171,7 +159,7 @@
     ]
   },
   {
-    "category": "Highways",
+    "category": "Roads and Highways",
     "metaTitle": "",
     "metaDescription": "",
     "slug": "highways",
@@ -181,23 +169,23 @@
       "/assets/images/airport.jpg",
       "/assets/images/airport.jpg"
     ],
-    "introduction": "Airports serve as crucial hubs connecting cities and countries, facilitating domestic and international travel for millions of passengers and cargo shipments daily. Sun Overseas has accomplished several large projects that have contributed to the overall expansion of the air transportation network of India.",
+    "introduction": "Roads and highways together form the primary means of connecting different parts of the nation together. STS Infracon, giving special emphasis to the importance of such a valuable method of transportation, has some of the best in its workforce to handle road and highway projects with great precision and efficiency.",
     "expertise": {
-      "Construction And Expansion": {
-        "description": "We construct and expand airports with modern facilities catering to the evolving demands of air travel."
+      "Lasting Roads": {
+        "description": "STS Infracon takes extensive measures to ensure each road and highway constructed lasts the test of time."
       },
-      "Modernized Facilities": {
+      "Innovative Infrastructure": {
         "description": "We install advanced, state-of-the-art facilities that assure a blend of comfort and efficiency."
       },
       "State of The Art Terminals": {
-        "description": "The airport terminals constructed by Sun Overseas are a work of modern art, attracting the attention of visitors and travellers alike."
+        "description": " Our highways are made with several things taken into consideration, including but not limited to traffic direction, areas with heavy traffic, how to best redirect vehicles, land and soil conditions, etc."
       }
     },
     "impact": {
-      "Improved Connectivity": "Our airports enhance regional and global connectivity, fostering tourism, trade, and economic growth.",
-      "Efficiency and Safety": "Advanced infrastructure ensures operational efficiency and elevated safety standards in airport operations."
+      "Reduced Vehicle Congestion": " Reducing vehicular congestion has a qualitative impact on the lives of many.",
+      "Road Connectivity": "Improving transport and connectivity bolsters the economic growth of a nation."
     },
-    "partner_with_us": "Collaborate with Sun Overseas to redefine airport infrastructure and elevate travel experiences. Our commitment to excellence shapes the future of air travel.",
+    "partner_with_us": "",
     "ourprojects": [
       {
         "project": "400kV GIS Substation in Patran, Punjab",

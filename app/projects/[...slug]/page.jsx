@@ -85,7 +85,7 @@ const ProjectDetails = ({ params }) => {
               <li>
                 <Link href="/projects">Projects</Link>
               </li>
-              <li className="active">Substations (AIS/GIS)</li>
+              <li className="active">{projectsData?.category}</li>
             </ul>
           </div>
         </section>

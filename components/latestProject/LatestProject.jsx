@@ -7,7 +7,7 @@ const LatestProject = () => {
         <div className="container">
           <h3 className="oh-desktop">
             <span className="d-inline-block wow slideInDown">
-              How can we help you?
+              Our Expertise
             </span>
           </h3>
           <div className="owl-style-4">

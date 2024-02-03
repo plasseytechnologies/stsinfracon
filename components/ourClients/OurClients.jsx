@@ -57,7 +57,7 @@ const OurClients = ({ award }) => {
                 <div className="col-sm-6 col-md-3">
                   <div className="counter-classic">
                     <h3 className="counter-classic-number">
-                      <span className="counter">640</span>
+                      <span className="counter">50</span>
                     </h3>
                     <h6 className="counter-classic-title">projects</h6>
                     <div className="counter-classic-decor" />
@@ -66,25 +66,25 @@ const OurClients = ({ award }) => {
                 <div className="col-sm-6 col-md-3">
                   <div className="counter-classic">
                     <h3 className="counter-classic-number">
-                      <span className="counter">15</span>
+                      <span className="counter">7</span>
                     </h3>
-                    <h6 className="counter-classic-title">awards won</h6>
+                    <h6 className="counter-classic-title">Services</h6>
                     <div className="counter-classic-decor" />
                   </div>
                 </div>
                 <div className="col-sm-6 col-md-3">
                   <div className="counter-classic">
                     <h3 className="counter-classic-number">
-                      <span className="counter">24</span>
+                      <span className="counter">200</span>
                     </h3>
-                    <h6 className="counter-classic-title">partners</h6>
+                    <h6 className="counter-classic-title">Employees</h6>
                     <div className="counter-classic-decor" />
                   </div>
                 </div>
                 <div className="col-sm-6 col-md-3">
                   <div className="counter-classic">
                     <h3 className="counter-classic-number">
-                      <span className="counter">15</span>
+                      <span className="counter">12</span>
                     </h3>
                     <h6 className="counter-classic-title">new clients</h6>
                     <div className="counter-classic-decor" />

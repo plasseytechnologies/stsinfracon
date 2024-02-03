@@ -156,15 +156,11 @@ const AboutUs = () => {
                       <li className="mb-2">Road and Highway Projects</li>
                       <li className="mb-2">Railway and Metro Projects</li>
                       <li className="mb-2">Airport Projects</li>
-                      <li className="mb-2">Irrigation Projects</li>
+
                       <li className="mb-2">
                         Transmission Line, Sub-station and Distribution Works
                       </li>
-                      <li className="mb-2">
-                        Hotels & Resorts/Hospitals/IT Complex/Sports Complex
-                      </li>
-                      <li className="mb-2">Shopping Malls</li>
-                      <li className="mb-2">Multistoried Buildings</li>
+
                       {/* </ul> */}
                     </div>
 
@@ -393,7 +389,7 @@ const AboutUs = () => {
                       <li className="list-history-item" role="presentation">
                         <a href="#tabs-5-1" data-toggle="tab">
                           <div className="list-history-circle" />
-                          1994
+                          1996
                         </a>
                       </li>
                       <li className="list-history-item" role="presentation">
@@ -405,7 +401,7 @@ const AboutUs = () => {
                       <li className="list-history-item" role="presentation">
                         <a href="#tabs-5-3" data-toggle="tab">
                           <div className="list-history-circle" />
-                          2010
+                          2018
                         </a>
                       </li>
                       <li className="list-history-item" role="presentation">
@@ -415,7 +411,7 @@ const AboutUs = () => {
                           data-toggle="tab"
                         >
                           <div className="list-history-circle" />
-                          2021
+                          2024
                         </a>
                       </li>
                     </ul>
