@@ -15,6 +15,51 @@ const ProjectDetails = ({ params }) => {
 
   return (
     <div className>
+      <head>
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{projectsData?.metaTitle}</title>
+        <meta name="description" content={projectsData?.metaDescription} />
+        {/* <link rel="icon" href="/icon.ico" sizes="any" /> */}
+        <meta
+          name="Keywords"
+          content=" STS Infracon Pvt Ltd
+          "
+        />
+        <meta property="og:title" content={projectsData?.metaTitle} />
+        <meta
+          property="og:description"
+          content={projectsData?.metaDescription}
+        />
+        <meta
+          property="og:image"
+          content="	https://www.stroytechservice.com/assets/images/STS-logo.png"
+        />
+        <meta
+          property="og:url"
+          content={`https://www.stroytechservice.com/projects/${slug}`}
+        />
+        <meta property="og:type" content="website" />
+        <link
+          rel="canonical"
+          href={`https://www.stroytechservice.com/projects/${slug}`}
+        />
+        <meta
+          name="twitter:card"
+          content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+        />
+        <meta name="twitter:title" content={projectsData?.metaTitle} />
+        <meta
+          name="twitter:description"
+          content={projectsData?.metaDescription}
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+        />
+      </head>
       <Header />
       <div>
         <section className="bg-gray-7">

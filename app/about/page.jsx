@@ -10,20 +10,45 @@ const AboutUs = () => {
   useEffect(() => {
     AllScriptLoad();
   }, []);
+  const Title = "About Us | STS Infracon";
+  const Description =
+    "STS Infracon Private Limited is a reputed Engineering, Procurement, Construction (EPC) company based in Gurgaon, India.";
+  const Url = "https://stsinfracon.com/about/";
+  const Keywords = "";
   return (
     <>
       <head>
-        <meta name="format-detection" content="telephone=no" />
-        <meta
-          name="viewport"
-          content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
-        />
-        <meta charSet="utf-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>About Us</title>
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta charSet="utf-8" />
+        <title>{Title}</title>
+        <meta name="description" content={Description} />
+        {/* <link rel="icon" href="/icon.ico" sizes="any" /> */}
+        <meta
+          name="Keywords"
+          content=" STS Infracon Pvt Ltd
+          "
+        />
+        <meta property="og:title" content={Title} />
+        <meta property="og:description" content={Description} />
+        <meta
+          property="og:image"
+          content="	https://www.stroytechservice.com/assets/images/STS-logo.png"
+        />
+        <meta property="og:url" content={Url} />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href={Url} />
+        <meta
+          name="twitter:card"
+          content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+        />
+        <meta name="twitter:title" content={Title} />
+        <meta name="twitter:description" content={Description} />
+        <meta
+          name="twitter:image"
+          content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+        />
       </head>
       <div>
         <Header />

@@ -8,8 +8,46 @@ const Blogs = () => {
   useEffect(() => {
     AllScriptLoad();
   }, []);
+  const Title = "STS Infracon : Best Engineering & Construction Company India";
+  const Description =
+    ":   STS is the leading engineering and construction company in India. We have shaken industry norms by providing innovative solutions to highly complex projects and meeting tight deadlines with awe-inspiring efficiency.";
+  const Url = "https://stsinfracon.com/";
+  const Keywords = "";
   return (
     <div>
+      <head>
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{Title}</title>
+        <meta name="description" content={Description} />
+        {/* <link rel="icon" href="/icon.ico" sizes="any" /> */}
+        <meta
+          name="Keywords"
+          content=" STS Infracon Pvt Ltd
+          "
+        />
+        <meta property="og:title" content={Title} />
+        <meta property="og:description" content={Description} />
+        <meta
+          property="og:image"
+          content="	https://www.stroytechservice.com/assets/images/STS-logo.png"
+        />
+        <meta property="og:url" content={Url} />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href={Url} />
+        <meta
+          name="twitter:card"
+          content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+        />
+        <meta name="twitter:title" content={Title} />
+        <meta name="twitter:description" content={Description} />
+        <meta
+          name="twitter:image"
+          content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+        />
+      </head>
       <Header />
       <div>
         <section className="section section-lg bg-default">

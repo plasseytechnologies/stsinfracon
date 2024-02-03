@@ -1,7 +1,8 @@
 [
   {
     "category": "Substation",
-
+    "metaTitle": "Substation Construction | STS Infracon",
+    "metaDescription": "STS Infracon has accomplished several large projects that have contributed to the overall expansion of the air transportation network of India",
     "slug": "substation",
     "img": [
       "/assets/images/airport.jpg",
@@ -53,6 +54,8 @@
   },
   {
     "category": "Railways OHE",
+    "metaTitle": "Railways Construction | STS Infracon",
+    "metaDescription": "Our expertise extends beyond roads and bridges. We actively contribute to significant railway construction projects, showcasing our diverse and impactful involvement in the infrastructure sector.",
     "slug": "railways-ohe",
     "img": [
       "/assets/images/airport.jpg",
@@ -126,7 +129,9 @@
   },
   {
     "category": "LCNG Stations",
-    "slug": "lncng-stations",
+    "metaTitle": "LCNG Station Construction | STS Infracon",
+    "metaDescription": "We specialize in constructing versatile RNG stations, catering to both private and public needs. Whether it's Compressed (CNG), Liquefied (LNG), or a blend of the two (LCNG), we deliver top-notch solutions for all your RNG requirements",
+    "slug": "lcng-stations",
     "img": [
       "/assets/images/airport.jpg",
       "/assets/images/airport.jpg",
@@ -163,6 +168,59 @@
         "location": "Menakuru, Andhra Pradesh"
       },
       { "project": "LCNG Stations ", "location": "Shivamogga, Karnataka" }
+    ]
+  },
+  {
+    "category": "Highways",
+    "metaTitle": "",
+    "metaDescription": "",
+    "slug": "highways",
+    "img": [
+      "/assets/images/airport.jpg",
+      "/assets/images/airport.jpg",
+      "/assets/images/airport.jpg",
+      "/assets/images/airport.jpg"
+    ],
+    "introduction": "Airports serve as crucial hubs connecting cities and countries, facilitating domestic and international travel for millions of passengers and cargo shipments daily. Sun Overseas has accomplished several large projects that have contributed to the overall expansion of the air transportation network of India.",
+    "expertise": {
+      "Construction And Expansion": {
+        "description": "We construct and expand airports with modern facilities catering to the evolving demands of air travel."
+      },
+      "Modernized Facilities": {
+        "description": "We install advanced, state-of-the-art facilities that assure a blend of comfort and efficiency."
+      },
+      "State of The Art Terminals": {
+        "description": "The airport terminals constructed by Sun Overseas are a work of modern art, attracting the attention of visitors and travellers alike."
+      }
+    },
+    "impact": {
+      "Improved Connectivity": "Our airports enhance regional and global connectivity, fostering tourism, trade, and economic growth.",
+      "Efficiency and Safety": "Advanced infrastructure ensures operational efficiency and elevated safety standards in airport operations."
+    },
+    "partner_with_us": "Collaborate with Sun Overseas to redefine airport infrastructure and elevate travel experiences. Our commitment to excellence shapes the future of air travel.",
+    "ourprojects": [
+      {
+        "project": "400kV GIS Substation in Patran, Punjab",
+        "location": "Punjab",
+
+        "icon": "icon  mdi mdi-power"
+      },
+      {
+        "project": "132/33kV GIS Substation at in Bhangel",
+        "location": "Bhangel, Uttar Pradesh",
+
+        "icon": "icon  mdi mdi-power"
+      },
+      {
+        "project": "132/33kV GIS Substation",
+        "location": "Mathura, Uttar Pradesh",
+        "icon": "icon  mdi mdi-power"
+      },
+      {
+        "project": "66/11kV AIS Substation",
+        "location": "Lehdo, Leh",
+        "icon": "icon  mdi mdi-power"
+      }
     ]
   }
 ]

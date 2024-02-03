@@ -8,8 +8,46 @@ const Contact = () => {
   useEffect(() => {
     AllScriptLoad();
   }, []);
+  const Title = "Contact Us : STS Infracon Private Limited";
+  const Description =
+    ":   Contact with STS Infracon effortlessly through call or mails. Reach out for inquiries, collaboration, or project discussions, and let's build a future of innovation together";
+  const Url = "https://stsinfracon.com/contact  ";
+  const Keywords = "";
   return (
     <div>
+      <head>
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{Title}</title>
+        <meta name="description" content={Description} />
+        {/* <link rel="icon" href="/icon.ico" sizes="any" /> */}
+        <meta
+          name="Keywords"
+          content=" STS Infracon Pvt Ltd
+          "
+        />
+        <meta property="og:title" content={Title} />
+        <meta property="og:description" content={Description} />
+        <meta
+          property="og:image"
+          content="	https://www.stroytechservice.com/assets/images/STS-logo.png"
+        />
+        <meta property="og:url" content={Url} />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href={Url} />
+        <meta
+          name="twitter:card"
+          content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+        />
+        <meta name="twitter:title" content={Title} />
+        <meta name="twitter:description" content={Description} />
+        <meta
+          name="twitter:image"
+          content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+        />
+      </head>
       <Header />
       <div>
         <section className="bg-gray-7">
