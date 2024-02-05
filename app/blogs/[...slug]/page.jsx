@@ -27,20 +27,20 @@ const BlogDetails = () => {
         <meta property="og:description" content={Description} />
         <meta
           property="og:image"
-          content="	https://www.stroytechservice.com/assets/images/STS-logo.png"
+          content="	https://stsinfracon.com/assets/images/STS-logo.png"
         />
         <meta property="og:url" content={Url} />
         <meta property="og:type" content="website" />
         <link rel="canonical" href={Url} />
         <meta
           name="twitter:card"
-          content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+          content="https://stsinfracon.com/assets/images/STS-logo.png"
         />
         <meta name="twitter:title" content={Title} />
         <meta name="twitter:description" content={Description} />
         <meta
           name="twitter:image"
-          content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+          content="https://stsinfracon.com/assets/images/STS-logo.png"
         />
       </head>
       <Header />
