@@ -182,7 +182,7 @@ const ProjectDetails = ({ params }) => {
                               {item?.location}
                             </td>
                           </tr>
-                          <tr>
+                          {/* <tr>
                             <td>
                               <span className="icon icon-28 mdi mdi-cash" />
                             </td>
@@ -191,7 +191,7 @@ const ProjectDetails = ({ params }) => {
                             >
                               {item?.price} $
                             </td>
-                          </tr>
+                          </tr> */}
                         </tbody>
                       </table>
                     </div>

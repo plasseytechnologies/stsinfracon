@@ -188,26 +188,14 @@
     "partner_with_us": "",
     "ourprojects": [
       {
-        "project": "400kV GIS Substation in Patran, Punjab",
-        "location": "Punjab",
-
-        "icon": "icon  mdi mdi-power"
+        "project": "Four Laning of Solapur – Bijapur , New NH-52",
+        "location": "Maharashtra & Karnataka",
+        "icon": "icon  mdi mdi-road"
       },
       {
-        "project": "132/33kV GIS Substation at in Bhangel",
-        "location": "Bhangel, Uttar Pradesh",
-
-        "icon": "icon  mdi mdi-power"
-      },
-      {
-        "project": "132/33kV GIS Substation",
-        "location": "Mathura, Uttar Pradesh",
-        "icon": "icon  mdi mdi-power"
-      },
-      {
-        "project": "66/11kV AIS Substation",
-        "location": "Lehdo, Leh",
-        "icon": "icon  mdi mdi-power"
+        "project": "Lane with paved shoulder from Shahpur To Thanagazi NH-248A",
+        "location": "Shahpur & Thanagazi",
+        "icon": "icon  mdi mdi-road"
       }
     ]
   }
