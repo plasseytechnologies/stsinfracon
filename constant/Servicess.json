@@ -1,0 +1,32 @@
+[
+  {
+    "offerName": "Substations (AIS/ GIS)",
+    "offerPara": "Professional Bidding Services. Expert assistance in the bidding process to enhance your chances of success. Optimize your bids for better.",
+    "offerImage": "/assets/images/substaions1.jpg"
+  },
+  {
+    "offerName": "Railways (OHE, Civil, P-Way, TSS)",
+    "offerPara": "Legal & Financial Support. Comprehensive support for legal and financial matters. Ensure compliance and make informed financial decisions.",
+    "offerImage": "/assets/images/railway1.jpg"
+  },
+  {
+    "offerName": "Oil & Gas (LCNG, COCO Station)",
+    "offerPara": "Engineering, Design & Tech Assistance. Innovative solutions for engineering, design, and technology challenges. Stay ahead with cutting.",
+    "offerImage": "/assets/images/oil-gas1.jpg"
+  },
+  {
+    "offerName": "Civil Project Management",
+    "offerPara": "Strategic Marketing & Business Growth. Tailored marketing strategies and business development plans. Achieve sustainable growth and market.",
+    "offerImage": "/assets/images/business-development.jpg"
+  },
+  {
+    "offerName": "End-to-End Services",
+    "offerPara": "Efficient Manpower Management. Streamline your workforce with effective manpower management solutions. Enhance productivity and efficiency.",
+    "offerImage": "/assets/images/man-power.jpg"
+  },
+  {
+    "offerName": "Sustainable Solutions",
+    "offerPara": "Comprehensive Project Monitoring. Real-time project monitoring for timely delivery. Proactive measures to ensure project success.",
+    "offerImage": "/assets/images/project-monitaring.jpg"
+  }
+]

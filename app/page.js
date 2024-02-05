@@ -16,7 +16,7 @@ import OurWork from "../constant/OurWork";
 import Link from "next/link";
 import Loader from "@/components/loader/Loader";
 import Header from "@/components/header/Header";
-
+import Gallery from "../constant/Gallery.json";
 const Home = () => {
   const [loader, setLoader] = useState(true);
   const loadScripts = async () => {
@@ -30,11 +30,13 @@ const Home = () => {
     }
   };
   useEffect(() => {
-   
-      loadScripts();
- 
+    loadScripts();
   }, []);
-
+  const Title = "STS Infracon : Best Engineering & Construction Company India";
+  const Description =
+    ":   STS is the leading engineering and construction company in India. We have shaken industry norms by providing innovative solutions to highly complex projects and meeting tight deadlines with awe-inspiring efficiency.";
+  const Url = "https://stsinfracon.com/";
+  const Keywords = "";
   return (
     <div>
       {loader ? (
@@ -43,6 +45,42 @@ const Home = () => {
         </>
       ) : (
         <>
+          <head>
+            <meta charSet="UTF-8" />
+            <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1"
+            />
+            <title>{Title}</title>
+            <meta name="description" content={Description} />
+            {/* <link rel="icon" href="/icon.ico" sizes="any" /> */}
+            <meta
+              name="Keywords"
+              content=" STS Infracon Pvt Ltd
+          "
+            />
+            <meta property="og:title" content={Title} />
+            <meta property="og:description" content={Description} />
+            <meta
+              property="og:image"
+              content="	https://www.stroytechservice.com/assets/images/STS-logo.png"
+            />
+            <meta property="og:url" content={Url} />
+            <meta property="og:type" content="website" />
+            <link rel="canonical" href={Url} />
+            <meta
+              name="twitter:card"
+              content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+            />
+            <meta name="twitter:title" content={Title} />
+            <meta name="twitter:description" content={Description} />
+            <meta
+              name="twitter:image"
+              content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+            />
+          </head>
           <Header />
           <HeroBanner />
           {/* What we offer*/}
@@ -50,11 +88,10 @@ const Home = () => {
           {/* Section CTA*/}*
           <CompanyCTA />
           {/* Mining machinery*/}
-          <OurGallery data={OurWork} name={"Our Work"} />
+          <OurClients award={true} />
           {/* Latest Project*/}
           <LatestProject />
           {/* Section*/}
-          <OurClients award={true} />
           {/* Section*/}
           <section className="section section-xl bg-default text-md-left">
             <div className="container">
@@ -155,6 +192,54 @@ const Home = () => {
                         </>
                       );
                     })}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <OurGallery data={Gallery} name={"Gallery"} />
+          <section
+            className="section parallax-container my-5"
+            data-parallax-img="/assets/images/bg-counter-3.jpg"
+          >
+            <div className="parallax-content section-inset-9 context-dark">
+              <div className="container">
+                <div className="row row-30 justify-content-center justify-content-xl-between align-items-lg-end">
+                  <div className="col-sm-6 col-md-3">
+                    <div className="counter-classic">
+                      <h3 className="counter-classic-number">
+                        <span className="counter">50</span>
+                      </h3>
+                      <h6 className="counter-classic-title">projects</h6>
+                      <div className="counter-classic-decor" />
+                    </div>
+                  </div>
+                  <div className="col-sm-6 col-md-3">
+                    <div className="counter-classic">
+                      <h3 className="counter-classic-number">
+                        <span className="counter">7</span>
+                      </h3>
+                      <h6 className="counter-classic-title">Services</h6>
+                      <div className="counter-classic-decor" />
+                    </div>
+                  </div>
+                  <div className="col-sm-6 col-md-3">
+                    <div className="counter-classic">
+                      <h3 className="counter-classic-number">
+                        <span className="counter">200</span>
+                      </h3>
+                      <h6 className="counter-classic-title">Employees</h6>
+                      <div className="counter-classic-decor" />
+                    </div>
+                  </div>
+                  <div className="col-sm-6 col-md-3">
+                    <div className="counter-classic">
+                      <h3 className="counter-classic-number">
+                        <span className="counter">12</span>
+                      </h3>
+                      <h6 className="counter-classic-title">new clients</h6>
+                      <div className="counter-classic-decor" />
+                    </div>
                   </div>
                 </div>
               </div>

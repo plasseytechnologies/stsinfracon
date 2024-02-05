@@ -3,7 +3,7 @@ import React from "react";
 const OurGallery = ({ data, name }) => {
   return (
     <div>
-      <section className="section section-xl bg-default text-center">
+      <section className="section  bg-default text-center">
         <div className="container">
           <h3 className="oh-desktop">
             <span className="d-inline-block wow slideInUp">{name}</span>

@@ -1,37 +1,37 @@
 [
   {
-    "offerName": "Bidding & Tendering Managment",
-    "offerPara": "Professional Bidding Services. Expert assistance in the bidding process to enhance your chances of success. Optimize your bids for better.",
-    "offerImage": "/assets/images/bidding.jpg"
+    "offerName": "Railway Infrastructure",
+    "offerPara": "",
+    "offerImage": "/assets/images/railway1.jpg"
   },
   {
-    "offerName": "Legal & Financial Managment",
-    "offerPara": "Legal & Financial Support. Comprehensive support for legal and financial matters. Ensure compliance and make informed financial decisions.",
-    "offerImage": "/assets/images/Legal-Financial.jpg"
+    "offerName": "Roads and Highway Construction",
+    "offerPara": "",
+    "offerImage": "/assets/images/highway1.jpg"
   },
   {
-    "offerName": "Design & Technology",
-    "offerPara": "Engineering, Design & Tech Assistance. Innovative solutions for engineering, design, and technology challenges. Stay ahead with cutting.",
-    "offerImage": "/assets/images/Design-Technology.jpg"
+    "offerName": "Power and Transmission",
+    "offerPara": "",
+    "offerImage": "/assets/images/substaions1.jpg"
   },
   {
-    "offerName": "Marketing & Business ",
-    "offerPara": "Strategic Marketing & Business Growth. Tailored marketing strategies and business development plans. Achieve sustainable growth and market.",
+    "offerName": "End-to-End Services",
+    "offerPara": "",
     "offerImage": "/assets/images/business-development.jpg"
   },
   {
-    "offerName": "Manpower Management",
-    "offerPara": "Efficient Manpower Management. Streamline your workforce with effective manpower management solutions. Enhance productivity and efficiency.",
+    "offerName": "Civil Project Management",
+    "offerPara": "",
     "offerImage": "/assets/images/man-power.jpg"
   },
   {
-    "offerName": "Project Monitoring Managment",
-    "offerPara": "Comprehensive Project Monitoring. Real-time project monitoring for timely delivery. Proactive measures to ensure project success.",
-    "offerImage": "/assets/images/project-monitaring.jpg"
+    "offerName": "Oil and Gas Stations Construction",
+    "offerPara": "",
+    "offerImage": "/assets/images/oil-gas1.jpg"
   },
   {
-    "offerName": "Logistics & Supply Management",
-    "offerPara": "Optimized Logistics Management. Efficient logistics solutions for seamless operations. Enhance supply chain performance and reduce.",
+    "offerName": "Sustainable Solutions",
+    "offerPara": "",
     "offerImage": "/assets/images/logistics-management.jpg"
   }
 ]

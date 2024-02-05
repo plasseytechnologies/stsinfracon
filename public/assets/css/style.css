@@ -9454,7 +9454,7 @@ hr + .footer-social-list {
 	max-width: 230px;
 	margin-left: auto;
 	margin-right: auto;
-	background: #edecec;
+	background: white;
 	transition: all .3s ease;
 	z-index: 1;
 }
@@ -11325,7 +11325,7 @@ html [class*='section-'].section-top-0 {
 }
 
 .footer-classic.context-dark p.rights, .footer-classic.bg-gray-dark p.rights, .footer-classic.bg-primary p.rights, .footer-corporate.context-dark p.rights, .footer-corporate.bg-gray-dark p.rights, .footer-corporate.bg-primary p.rights {
-	color: rgba(255, 255, 255, 0.2);
+	color: rgba(255, 255, 255, 0.8);
 }
 
 .footer-modern.context-dark, .footer-modern.bg-gray-dark, .footer-modern.bg-primary {
@@ -22605,7 +22605,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .parallax-container {
 	position: relative;
 	overflow: hidden;
-	background-color: #212121;
+	background-color: white;
 	background-position: 50%;
 }
 
@@ -23303,7 +23303,7 @@ disabled look for disabled choices in the results dropdown
 /* Arrows */
 .slick-prev,
 .slick-next {
-	display: block;
+	display: none!important;
 	padding: 0;
 	font-size: 22px;
 	line-height: 1;

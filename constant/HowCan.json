@@ -1,14 +1,14 @@
 [
   {
-    "name": "Railway  & Metro Infra, Station Redevelopment Works",
+    "name": "Railways, Metro Infrastructure, and Station Redevelopment Works",
     "image": "/assets/images/metro.jpg"
   },
   {
-    "name": "Medical Infrastructure Works",
-    "image": "/assets/images/docter.jpg"
+    "name": "Roads and Highways",
+    "image": "/assets/images/highway1.jpg"
   },
   {
-    "name": "Substation & TL Infrastructure and O&M Works",
-    "image": "/assets/images/port.jpg"
+    "name": "Substation, Transmission Line Infrastructure, and O&M Works",
+    "image": "/assets/images/substaions1.jpg"
   }
 ]

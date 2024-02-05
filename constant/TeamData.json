@@ -3,62 +3,63 @@
     "name": "DR. PARVEEN NAYYAR",
     "position": "CHAIRMAN",
     "image": "/assets/images/chairman.png",
-    "paragraph": "A renowned leader and entrepreneur Mr. Nayyar always believes that the “SUCCESS IS NOT ACCIDENTAL”. It is hard work, perseverance, learning, sacrifice, and most of the love of what you are doing. With this belief, he commenced his journey with Sun Overseas in 1996, a company that provides ONE-STOP WINDOW for a consultancy from concept to completion including preparation of Bids against global tenders issued by both private and public sectors.",
-    "height": "270",
+    "paragraph": "A renowned leader and entrepreneur, Dr. Parveen Nayyar believes that success is not accidental. It is a result of hard work, perseverance, learning, sacrifice, and most of all, love for what you are doing. With this belief, he commenced his journey with Sun Overseas in 1996, a company that provides a one-stop window for business consultancy from concept to completion, including preparation of bids against global tenders issued by both private and public sectors.",
+    "height": "250",
     "width": "270",
     "className": "fadeInLeft"
   },
   {
-    "name": "MR. ABHIJIT EINSTEIN",
+    "name": "Mr.ABHIJIT EINSTEIN",
     "position": "DIRECTOR",
     "image": "/assets/images/abhijit-einstein.jpg",
-    "paragraph": "25+ years of experience in handling Joint Venture partners, Expertise informing agreements, MoUs, Bid preparation, Handling all pre-bid activities, Well versed with Russian language and handling Russian and CIS countries along with the Indian market.",
-    "height": "270",
+    "paragraph": "True to his name, Mr. Abhijit Einstein has over 30 years of experience in handling joint venture partners, MoUs, bids and all pre-bid activities, and possesses great expertise in negotiations. He is well-versed in Russian and handling Russian and CIS countries in conjunction with the Indian market.",
+    "height": "250",
     "width": "270",
     "className": "fadeInRight"
   },
   {
-    "name": "RAJEEV RANJAN",
+    "name": "Mr.RAJEEV RANJAN",
     "position": "BUSINESS HEAD",
     "image": "/assets/images/rajeev-ranjan.jpg",
-    "paragraph": "Mr. Rajeev Ranjan, a Civil Engineer by qualification, has over 31 years of rich experience in handling large value infrastructure projects, especially in Railways, Power Plants, Power Transmission and Distribution, and Industrial building projects. Over the years, he has worked with several Multinational infrastructure companies and his expertise includes Project Management, Construction Management, Contract Management, Business Development, Tendering, Engineering, Procurement, Construction of high-value EPC Contracts. His services have been utilized by KEC, KPTL, RattanIndia Power Limited, Areva T&D, and Reliance Infrastructure Limited.",
-    "height": "270",
+    "paragraph": "Mr. Rajeev Ranjan, a Civil Engineer by qualification, has over three decades of rich experience in handling large value infrastructure projects, especially in railways, power plants, power transmission and distribution, and industrial building projects. Over the years, he has worked with several multinational infrastructure companies. His expertise includes project management, construction management, contract management, business development, tendering, engineering, procurement, construction of high-value EPC contracts. His services have been utilized by KEC, KPTL, RattanIndia, Areva T&D, and Reliance Infrastructure Limited.",
+    "height": "250",
     "width": "270",
     "className": "fadeInLeft"
   },
   {
-    "name": "Mr. SATYENDRA SHARMA",
+    "name": "Mr.SATYENDRA SHARMA",
     "position": "COO",
+
     "image": "/assets/images/Mr.Satyandra.png",
-    "paragraph": "Mr. Satyendra Sharma, B.Tech from IIT BHU and having global experience of 27 years in handling Business operations, Project Management, Planning, Supply chain management, Procurement, and Business Development of EPC Projects in Power T&D, HVDC, Railways Infrastructure, and Mega Power plants space. Mr. Sharma has rich experience with Various multinationals like Siemens/Alstom /GE/Mitsubishi and KEC.",
-    "height": "270",
+    "paragraph": "Mr. Satyendra Sharma possesses a wealth of experience spanning nearly three decades in handling business operations, managing projects, planning, supply chain management, procurement, and business development of EPC projects in Power T&D, HVDC, railways infrastructure, and mega power plants. Mr. Sharma has worked with various multinationals like Siemens, Alstom, GE, Mitsubishi, and KEC. To mention, he has completed his B.Tech from IIT BHU.",
+    "height": "250",
     "width": "270",
     "className": "fadeInRight"
   },
   {
-    "name": "AJAY BANGARI",
+    "name": "Mr.AJAY BANGARI",
     "position": "HEAD - BUSINESS DEVELOPMENT & OPERATIONS",
     "image": "/assets/images/ajay-bangari.jpg",
-    "paragraph": "Mr. Ajay Bangari, an Electrical Engineer by qualification, has over 14 years of rich and varied experience in Project Management, Tendering, Business Development, Planning, Project Development, Procurement, Vendor Development, and System Engineering. His services have been utilized by KEC, KPTL, RattanIndia Power Limited, and Reliance Infrastructure Limited. He is also an SSB merit holder for Indian Defense Services in the year 2007.",
-    "height": "270",
+    "paragraph": "Mr. Ajay Bangari, an electrical engineer by qualification, has over 14 years of rich and varied experience in project management, tendering, business development, planning, project development, procurement, vendor development, and system engineering. His services have been of great importance to organisations like KEC, KPTL, RattanIndia, and Reliance Infrastructure Limited. He is also an SSB merit holder for Indian Defense Services in the year 2007",
+    "height": "250",
     "width": "270",
     "className": "fadeInLeft"
   },
   {
-    "name": "SUDHEER KUMAR",
+    "name": "Mr.SUDHEER KUMAR",
     "position": "HEAD - CIVIL",
     "image": "/assets/images/Sudheer.jpg",
-    "paragraph": "Mr. Sudheer Kumar, B.E. civil and having experience of 28 years in handling Project execution, Project Management, Construction Management of EPC Projects in Oil & Gas, Railways Infrastructure, Power Projects and EHV Sub-stations space. Mr. Sudheer has rich experience with various multinationals like KEC, KPTL, GE T&D, Alstom T&D and Areva T&D. Mr. Sudheer has experience of delivering prestigious Power Supply System contract for DIAL project during his tenure with Areva T&D.",
-    "height": "270",
+    "paragraph": "Mr. Sudheer Kumar, B.E. civil graduate with an experience of nearly 30 years in project management and execution, construction management of EPC projects in Oil & Gas, railways infrastructure, power projects and EHV Sub-stations setup and maintenance, is one of the pillars of STS Infracon. Mr. Sudheer has accrued renown while working with various multinational organisations like KEC, KPTL, GE T&D, Alstom T&D, and Areva T&D. Mr. Sudheer has experience delivering prestigious power supply system contracts for DIAL project during his tenure with Areva T&D.",
+    "height": "250",
     "width": "270",
     "className": "fadeInRight"
   },
   {
-    "name": "LAXMI NARAYAN PRADHAN",
+    "name": "MR.LAXMI NARAYAN PRADHAN",
     "position": "HEAD - CIVIL TENDERING",
     "image": "/assets/images/laxmi-narayan.jpg",
-    "paragraph": "Mr. Laxmi Narayan Pradhan, a Civil Engineer by profession, has over 11 years of rich and varied experience in Marketing & Business Development, Tendering & Costing, Project Management, Planning, Procurement, Execution of Large Value EPC Contracts, and Contract Management for both International and Domestic Markets. His services have been utilized by KEC International Limited and Dilip Buildcon Limited.",
-    "height": "270",
+    "paragraph": "Mr. Laxmi Narayan Pradhan, a civil engineer by profession, has over a decade of experience in marketing & business development, tendering & costing, project management, planning, procurement, execution of large value EPC contracts, and contract management for both international and domestic markets. His services have generated significant value for organisations like KEC International Limited and Dilip Buildcon Limited.",
+    "height": "250",
     "width": "270",
     "className": "fadeInLeft"
   }

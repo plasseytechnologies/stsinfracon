@@ -1,5 +1,10 @@
 [
   {
+    "name": "National Highways Authority of India (NHAI)",
+    "para": "",
+    "logo": "/assets/images/NHAI.jpg"
+  },
+  {
     "name": "Central Organization for Railway Electrification (CORE)",
     "para": "",
     "logo": "/assets/images/CORE.jpg"
@@ -17,17 +22,17 @@
   {
     "name": "Western Railway (WR)",
     "para": "",
-    "logo": "/assets/images/WR.jpg"
+    "logo": "/assets/images/WR.png"
   },
   {
     "name": "East Central Railway (ECR)",
     "para": "",
-    "logo": "/assets/images/ECR.jpg"
+    "logo": "/assets/images/ECR.png"
   },
   {
     "name": "U.P Power Transmission Corporation Limited (UPPTCL)",
     "para": "",
-    "logo": "/assets/images/UPPTCL.png"
+    "logo": "/assets/images/UPPTCL.jpg"
   },
   {
     "name": "Patran Transmission Company Limited (PTCL)",
@@ -42,11 +47,16 @@
   {
     "name": "TBEA Energy (India) Private Limited (TBEA)",
     "para": "",
-    "logo": "/assets/images/TBEA.png"
+    "logo": "/assets/images/TBEA.jpg"
   },
   {
     "name": "AGP City Gas Private Limited (AGP)",
     "para": "",
-    "logo": "/assets/images/AGP.png"
+    "logo": "/assets/images/AGP.jpg"
+  },
+  {
+    "name": "Salasar Building a Stronger Futur (SBSF)",
+    "para": "",
+    "logo": "/assets/images/SALASAR.jpg"
   }
 ]
