@@ -61,16 +61,14 @@ const Header = () => {
                 </ul>
                 <ul className="list-share-2">
                   <li>
-                    <a className="icon mdi mdi-facebook" href="#" />
-                  </li>
-                  <li>
-                    <a className="icon mdi mdi-twitter" href="#" />
-                  </li>
-                  <li>
                     <a className="icon mdi mdi-instagram" href="#" />
                   </li>
                   <li>
-                    <a className="icon mdi mdi-google-plus" href="#" />
+                    <a
+                      className="icon mdi mdi-linkedin"
+                      target="blank"
+                      href="https://www.linkedin.com/company/stsinfraconpvtltd/?originalSubdomain=in"
+                    />
                   </li>
                 </ul>
               </div>

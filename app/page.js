@@ -32,7 +32,8 @@ const Home = () => {
   useEffect(() => {
     loadScripts();
   }, []);
-  const Title = "STS Infracon : Best Engineering & Construction Company India";
+  const Title =
+    "STS Infracon Pvt Ltd - Engineering & Construction Company India";
   const Description =
     ":   STS is the leading engineering and construction company in India. We have shaken industry norms by providing innovative solutions to highly complex projects and meeting tight deadlines with awe-inspiring efficiency.";
   const Url = "https://stsinfracon.com/";
