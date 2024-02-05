@@ -1,180 +1,49 @@
+"use client";
 import React from "react";
 import Clients from "../../constant/Clients.json";
 
+import Slider from "react-slick";
+
 const OurClients = ({ award }) => {
+  var settings = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+  };
   return (
     <div>
       <section className="section section-xl bg-gray-100 text-md-left">
-        <div className="container">
-          <div className="row row-60 justify-content-center flex-lg-row-reverse">
-            <div className="col-md-8 col-lg-6 col-xl-5">
-              <div className="offset-left-xl-70">
-                <h3 className="oh-desktop">
-                  <span className="d-inline-block wow slideInLeft">
-                    Our clients
-                  </span>
-                </h3>
-                <div className="slick-quote">
-                  {/* Slick Carousel*/}
-                  <div
-                    className="slick-slider carousel-parent"
-                    data-autoplay="true"
-                    data-swipe="true"
-                    data-items={1}
-                    data-child="#child-carousel-2"
-                    data-for="#child-carousel-2"
-                    data-slide-effect="true"
-                  >
-                    <div className="item">
-                      {/* Quote Modern*/}
-                      <article className="quote-modern">
-                        <h5 className="quote-modern-text">
-                          <span className="q">
-                            Civil Group has provided professional engineering
-                            services to AlphaIndustry for years. They have
-                            always been our dedicated partner.
-                          </span>
-                        </h5>
-                        <h5 className="quote-modern-author">Stephen Adams,</h5>
-                        <p className="quote-modern-status">
-                          “AlphaIndustry”, CEO
-                        </p>
-                      </article>
-                    </div>
-                    <div className="item">
-                      {/* Quote Modern*/}
-                      <article className="quote-modern">
-                        <h5 className="quote-modern-text">
-                          <span className="q">
-                            We have worked with Civil Group for many years. The
-                            quality of work has always been excellent and they
-                            are promptly responsive and reliable.
-                          </span>
-                        </h5>
-                        <h5 className="quote-modern-author">Sam Peterson,</h5>
-                        <p className="quote-modern-status">
-                          “West Coal Plant”, CFO
-                        </p>
-                      </article>
-                    </div>
-                    <div className="item">
-                      {/* Quote Modern*/}
-                      <article className="quote-modern">
-                        <h5 className="quote-modern-text">
-                          <span className="q">
-                            Civil Group has been an important part of our
-                            success. We have had the opportunity to work closely
-                            with them on multiple projects.
-                          </span>
-                        </h5>
-                        <h5 className="quote-modern-author">Jane McMillan,</h5>
-                        <p className="quote-modern-status">
-                          “South East Plant”, Lead HR Manager
-                        </p>
-                      </article>
-                    </div>
-                    <div className="item">
-                      {/* Quote Modern*/}
-                      <article className="quote-modern">
-                        <h5 className="quote-modern-text">
-                          <span className="q">
-                            This team provides a great level of service on all
-                            of our projects. They are an industry leader in the
-                            use of BIM technologies for structural design.
-                          </span>
-                        </h5>
-                        <h5 className="quote-modern-author">Will Jones,</h5>
-                        <p className="quote-modern-status">
-                          “STC Management”, Sales Manager
-                        </p>
-                      </article>
-                    </div>
-                  </div>
-                  <div
-                    className="slick-slider child-carousel"
-                    id="child-carousel-2"
-                    data-arrows="true"
-                    data-for=".carousel-parent"
-                    data-items={4}
-                    data-sm-items={4}
-                    data-md-items={4}
-                    data-lg-items={4}
-                    data-xl-items={4}
-                    data-slide-to-scroll={1}
-                  >
-                    <div className="item">
-                      <img
-                        className="img-circle"
-                        src="/assets/images/chennai-metro-logo-150x150.jpg"
-                        alt
-                        width={83}
-                        height={83}
-                      />
-                    </div>
-                    <div className="item">
-                      <img
-                        className="img-circle"
-                        src="/assets/images/kolkata-metro-logo-150x150.jpg"
-                        alt
-                        width={83}
-                        height={83}
-                      />
-                    </div>
-                    <div className="item">
-                      <img
-                        className="img-circle"
-                        src="/assets/images/Rail-150x150.jpg"
-                        alt
-                        width={83}
-                        height={83}
-                      />
-                    </div>
-                    <div className="item">
-                      <img
-                        className="img-circle"
-                        src="/assets/images/NHAI-150x150.jpg"
-                        alt
-                        width={83}
-                        height={83}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 col-xl-7">
-              {/* Clients Classic*/}
-              <div className="clients-classic-wrap">
-                <div className="row no-gutters">
-                  {Clients.map((item) => (
-                    <>
-                      <div className="col-sm-6 wow ">
-                        <div className="clients-classic">
-                          <a className="clients-classic-figure" href="#">
-                            <img src={item?.logo} alt width={90} height={90} />
-                          </a>
-                        </div>
-                      </div>
-                    </>
-                  ))}
-                </div>
-                {/* <div className="row no-gutters">
-                  <div className="col-sm-6 wow fadeInLeft">
-                    <div className="clients-classic">
-                      <a className="clients-classic-figure" href="#">
-                        <img
-                          src="/assets/images/NHAI-150x150.jpg"
-                          alt
-                          width={200}
-                          height={90}
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div> */}
-              </div>
+        <div className="">
+          <div className="col-md-12 col-lg-12 col-xl-12 mb-5">
+            <div className="offset-left-xl-70 flex justify-center">
+              <h3 className="oh-desktop">
+                <span className="d-inline-block wow slideInLeft">
+                  Our clients
+                </span>
+              </h3>
             </div>
           </div>
+
+          <Slider {...settings} style={{ backgroundColor: "white" }}>
+            {Clients.map((item) => (
+              <a class="clients-classic-figure p-3" href="#">
+                <img
+                  src={item?.logo}
+                  style={{
+                    maxWidth: "180px",
+                    aspectRatio: "3/2",
+                    objectFit: "contain",
+                    mixBlendMode: "color-burn",
+                  }}
+                />
+              </a>
+            ))}
+          </Slider>
         </div>
       </section>
       {award ? (
@@ -188,7 +57,7 @@ const OurClients = ({ award }) => {
                 <div className="col-sm-6 col-md-3">
                   <div className="counter-classic">
                     <h3 className="counter-classic-number">
-                      <span className="counter">640</span>
+                      <span className="counter">50</span>
                     </h3>
                     <h6 className="counter-classic-title">projects</h6>
                     <div className="counter-classic-decor" />
@@ -197,25 +66,25 @@ const OurClients = ({ award }) => {
                 <div className="col-sm-6 col-md-3">
                   <div className="counter-classic">
                     <h3 className="counter-classic-number">
-                      <span className="counter">15</span>
+                      <span className="counter">7</span>
                     </h3>
-                    <h6 className="counter-classic-title">awards won</h6>
+                    <h6 className="counter-classic-title">Services</h6>
                     <div className="counter-classic-decor" />
                   </div>
                 </div>
                 <div className="col-sm-6 col-md-3">
                   <div className="counter-classic">
                     <h3 className="counter-classic-number">
-                      <span className="counter">24</span>
+                      <span className="counter">200</span>
                     </h3>
-                    <h6 className="counter-classic-title">partners</h6>
+                    <h6 className="counter-classic-title">Employees</h6>
                     <div className="counter-classic-decor" />
                   </div>
                 </div>
                 <div className="col-sm-6 col-md-3">
                   <div className="counter-classic">
                     <h3 className="counter-classic-number">
-                      <span className="counter">15</span>
+                      <span className="counter">12</span>
                     </h3>
                     <h6 className="counter-classic-title">new clients</h6>
                     <div className="counter-classic-decor" />

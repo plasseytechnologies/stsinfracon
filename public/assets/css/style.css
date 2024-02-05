@@ -9454,7 +9454,7 @@ hr + .footer-social-list {
 	max-width: 230px;
 	margin-left: auto;
 	margin-right: auto;
-	background: #edecec;
+	background: white;
 	transition: all .3s ease;
 	z-index: 1;
 }
@@ -23303,7 +23303,7 @@ disabled look for disabled choices in the results dropdown
 /* Arrows */
 .slick-prev,
 .slick-next {
-	display: block;
+	display: none!important;
 	padding: 0;
 	font-size: 22px;
 	line-height: 1;

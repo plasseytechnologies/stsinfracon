@@ -9,8 +9,47 @@ const Project = () => {
   useEffect(() => {
     AllScriptLoad();
   }, []);
+  const Title =
+    "Our Projects | Explore Our Diverse Portfolio of Engineering Excellence";
+  const Description =
+    "Dive into excellence with STS Infracon, your top choice for engineering and construction in India. Explore our projects online for a glimpse into innovation and quality craftsmanship";
+  const Url = "https://stsinfracon.com/projects";
+  const Keywords = "";
   return (
     <div>
+      <head>
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{Title}</title>
+        <meta name="description" content={Description} />
+        {/* <link rel="icon" href="/icon.ico" sizes="any" /> */}
+        <meta
+          name="Keywords"
+          content=" STS Infracon Pvt Ltd
+          "
+        />
+        <meta property="og:title" content={Title} />
+        <meta property="og:description" content={Description} />
+        <meta
+          property="og:image"
+          content="	https://www.stroytechservice.com/assets/images/STS-logo.png"
+        />
+        <meta property="og:url" content={Url} />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href={Url} />
+        <meta
+          name="twitter:card"
+          content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+        />
+        <meta name="twitter:title" content={Title} />
+        <meta name="twitter:description" content={Description} />
+        <meta
+          name="twitter:image"
+          content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+        />
+      </head>
       <Header />
       <section className="bg-gray-7">
         <div className="breadcrumbs-custom box-transform-wrap context-dark">
