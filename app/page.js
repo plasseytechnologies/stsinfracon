@@ -65,20 +65,20 @@ const Home = () => {
             <meta property="og:description" content={Description} />
             <meta
               property="og:image"
-              content="	https://www.stroytechservice.com/assets/images/STS-logo.png"
+              content="	https://stsinfracon.com/assets/images/STS-logo.png"
             />
             <meta property="og:url" content={Url} />
             <meta property="og:type" content="website" />
             <link rel="canonical" href={Url} />
             <meta
               name="twitter:card"
-              content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+              content="https://stsinfracon.com/assets/images/STS-logo.png"
             />
             <meta name="twitter:title" content={Title} />
             <meta name="twitter:description" content={Description} />
             <meta
               name="twitter:image"
-              content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+              content="https://stsinfracon.com/assets/images/STS-logo.png"
             />
           </head>
           <Header />
@@ -161,7 +161,7 @@ const Home = () => {
                               <div className="team-modern-status">
                                 {team.position}
                               </div>
-                              <ul className="list-inline team-modern-social-list">
+                              {/* <ul className="list-inline team-modern-social-list">
                                 <li>
                                   <a
                                     className="icon mdi mdi-facebook"
@@ -186,7 +186,7 @@ const Home = () => {
                                     href="#"
                                   />
                                 </li>
-                              </ul>
+                              </ul> */}
                             </div>
                           </article>
                         </>

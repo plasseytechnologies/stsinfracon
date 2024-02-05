@@ -34,18 +34,22 @@ const Footer = () => {
                     </li>
                   </ul>
                   <ul className="list-inline footer-social-list flex justify-center">
-                    <li>
+                    {/* <li>
                       <a className="icon mdi mdi-facebook" href="#" />
+                    </li> */}
+                    <li>
+                      <a
+                        className="icon mdi mdi-linkedin"
+                        target="blank"
+                        href="https://www.linkedin.com/company/stsinfraconpvtltd/"
+                      />
                     </li>
                     <li>
-                      <a className="icon mdi mdi-twitter" href="#" />
+                      <a className="icon mdi mdi-instagram" href="" />
                     </li>
-                    <li>
-                      <a className="icon mdi mdi-instagram" href="#" />
-                    </li>
-                    <li>
+                    {/* <li>
                       <a className="icon mdi mdi-google-plus" href="#" />
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

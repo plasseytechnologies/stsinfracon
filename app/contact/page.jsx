@@ -32,20 +32,20 @@ const Contact = () => {
         <meta property="og:description" content={Description} />
         <meta
           property="og:image"
-          content="	https://www.stroytechservice.com/assets/images/STS-logo.png"
+          content="	https://stsinfracon.com/assets/images/STS-logo.png"
         />
         <meta property="og:url" content={Url} />
         <meta property="og:type" content="website" />
         <link rel="canonical" href={Url} />
         <meta
           name="twitter:card"
-          content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+          content="https://stsinfracon.com/assets/images/STS-logo.png"
         />
         <meta name="twitter:title" content={Title} />
         <meta name="twitter:description" content={Description} />
         <meta
           name="twitter:image"
-          content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+          content="https://stsinfracon.com/assets/images/STS-logo.png"
         />
       </head>
       <Header />
@@ -184,16 +184,14 @@ const Contact = () => {
                       <p className="aside-contacts-title">Social Media</p>
                       <ul className="list-inline contacts-social-list list-inline-sm">
                         <li>
-                          <a className="icon mdi mdi-facebook" href="#" />
-                        </li>
-                        <li>
-                          <a className="icon mdi mdi-twitter" href="#" />
+                          <a
+                            className="icon mdi mdi-linkedin"
+                            target="blank"
+                            href="https://www.linkedin.com/company/stsinfraconpvtltd/"
+                          />
                         </li>
                         <li>
                           <a className="icon mdi mdi-instagram" href="#" />
-                        </li>
-                        <li>
-                          <a className="icon mdi mdi-google-plus" href="#" />
                         </li>
                       </ul>
                     </div>

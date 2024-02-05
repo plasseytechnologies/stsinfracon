@@ -58,5 +58,15 @@
     "name": "Salasar Building a Stronger Futur (SBSF)",
     "para": "",
     "logo": "/assets/images/SALASAR.jpg"
+  },
+  {
+    "name": "Ministry of Road Transport and Highways (MORTH)",
+    "para": "",
+    "logo": "/assets/images/MORTH.png"
+  },
+  {
+    "name": "Public Works Department Rajshthan (PWDR)",
+    "para": "",
+    "logo": "/assets/images/PWD.png"
   }
 ]
