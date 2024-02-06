@@ -14,10 +14,12 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
+      <link rel="icon" href="/fav.ico" />
       <meta
         name="google-site-verification"
         content="nMxasFPkEHrigkza5_oQa0fnHG9yOp1B2UFontjtDfk"
       />
+
       <script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-NPYBTQB223"
@@ -29,6 +31,20 @@ export default function RootLayout({ children }) {
 
   gtag('config', 'G-NPYBTQB223');`}
       </script>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-NPYBTQB223"
+      ></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-NPYBTQB223');
+          `,
+        }}
+      />
       <script
         dangerouslySetInnerHTML={{
           __html: `function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -58,7 +74,7 @@ export default function RootLayout({ children }) {
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
-        {/* <Header /> */}
+
         {children}
         <Footer />
       </body>

@@ -35,20 +35,20 @@ const ProjectDetails = ({ params }) => {
         />
         <meta
           property="og:image"
-          content="	https://www.stroytechservice.com/assets/images/STS-logo.png"
+          content="	https://stsinfracon.com/assets/images/STS-logo.png"
         />
         <meta
           property="og:url"
-          content={`https://www.stroytechservice.com/projects/${slug}`}
+          content={`https://stsinfracon.com/projects/${slug}`}
         />
         <meta property="og:type" content="website" />
         <link
           rel="canonical"
-          href={`https://www.stroytechservice.com/projects/${slug}`}
+          href={`https://stsinfracon.com/projects/${slug}`}
         />
         <meta
           name="twitter:card"
-          content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+          content="https://stsinfracon.com/assets/images/STS-logo.png"
         />
         <meta name="twitter:title" content={projectsData?.metaTitle} />
         <meta
@@ -57,7 +57,7 @@ const ProjectDetails = ({ params }) => {
         />
         <meta
           name="twitter:image"
-          content="https://www.stroytechservice.com/assets/images/STS-logo.png"
+          content="https://stsinfracon.com/assets/images/STS-logo.png"
         />
       </head>
       <Header />
@@ -182,7 +182,7 @@ const ProjectDetails = ({ params }) => {
                               {item?.location}
                             </td>
                           </tr>
-                          <tr>
+                          {/* <tr>
                             <td>
                               <span className="icon icon-28 mdi mdi-cash" />
                             </td>
@@ -191,7 +191,7 @@ const ProjectDetails = ({ params }) => {
                             >
                               {item?.price} $
                             </td>
-                          </tr>
+                          </tr> */}
                         </tbody>
                       </table>
                     </div>
