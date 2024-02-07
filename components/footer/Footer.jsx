@@ -164,7 +164,7 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#" target="blank">
+                      <a href="https://prasundevelopers.com/" target="blank">
                         Prasun Developers
                       </a>
                     </li>
