@@ -2,9 +2,45 @@
 import Header from "@/components/header/Header";
 import { AllScriptLoad } from "@/constant/scriptFiles";
 import Link from "next/link";
-import React, { useEffect } from "react";
-
+import React, { useEffect, useState } from "react";
+import { sendContactForm } from "@/utils/ContactApi";
 const Contact = () => {
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    phoneNumber: "",
+    message: "",
+  });
+
+  const handerChange = (e) => {
+    console.log(e);
+    const { name, value } = e.target;
+    setForm({
+      ...form,
+      [name]: value,
+    });
+  };
+  const submitHandler = async () => {
+    console.log(form);
+    const { name, email, phoneNumber, message } = form;
+
+    const res = await sendContactForm({
+      name,
+      email,
+      phoneNumber,
+      message,
+      subject: "Contact Form ",
+    });
+    console.log(res);
+    if (res.success) {
+      setForm({
+        name: "",
+        email: "",
+        phoneNumber: "",
+        message: "",
+      });
+    }
+  };
   useEffect(() => {
     AllScriptLoad();
   }, []);
@@ -83,13 +119,7 @@ const Contact = () => {
                 <h4 className="text-spacing-25 text-transform-none">
                   Get in Touch!
                 </h4>
-                <form
-                  className="rd-form rd-mailform"
-                  data-form-output="form-output-global"
-                  data-form-type="contact"
-                  method="post"
-                  action="bat/rd-mailform.php"
-                >
+                <form className="rd-form rd-mailform" onSubmit={submitHandler}>
                   <div className="row row-20 gutters-20">
                     <div className="col-md-6">
                       <div className="form-wrap">
@@ -98,6 +128,7 @@ const Contact = () => {
                           id="contact-your-name-5"
                           type="text"
                           name="name"
+                          onChange={handerChange}
                           data-constraints="@Required"
                         />
                         <label
@@ -115,6 +146,7 @@ const Contact = () => {
                           id="contact-email-5"
                           type="email"
                           name="email"
+                          onChange={handerChange}
                           data-constraints="@Email @Required"
                         />
                         <label className="form-label" htmlFor="contact-email-5">
@@ -122,9 +154,9 @@ const Contact = () => {
                         </label>
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    {/* <div className="col-md-6">
                       <div className="form-wrap">
-                        {/*Select 2*/}
+                       
                         <select
                           className="form-input"
                           data-minimum-results-for-search="Infinity"
@@ -136,14 +168,15 @@ const Contact = () => {
                           <option value={4}>Geospatial Design</option>
                         </select>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-md-6">
                       <div className="form-wrap">
                         <input
                           className="form-input"
                           id="contact-phone-5"
                           type="text"
-                          name="phone"
+                          name="phoneNumber"
+                          onChange={handerChange}
                           data-constraints="@Numeric"
                         />
                         <label className="form-label" htmlFor="contact-phone-5">
@@ -163,6 +196,7 @@ const Contact = () => {
                           className="form-input textarea-lg"
                           id="contact-message-5"
                           name="message"
+                          onChange={handerChange}
                           data-constraints="@Required"
                           defaultValue={""}
                         />
