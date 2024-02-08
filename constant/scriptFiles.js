@@ -13,6 +13,7 @@ const AllScriptLoad = () => {
       const script = document.createElement("script");
       script.src = src;
       script.defer = true;
+      script.async = true;
 
       script.onload = () => {
         // console.log(`Script ${src} loaded successfully`);
