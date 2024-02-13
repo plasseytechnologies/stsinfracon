@@ -40,7 +40,7 @@ const Header = () => {
                       </div>
                       <div className="unit-body">
                         <a className="phone" href="tel:#">
-                          91-124-4653435
+                          +918130012568
                         </a>
                       </div>
                     </div>
@@ -120,7 +120,7 @@ const Header = () => {
                           </div>
                           <div className="unit-body">
                             <a className="phone" href="tel:#">
-                              91-124-4653435
+                              +918130012568
                             </a>
                           </div>
                         </div>
