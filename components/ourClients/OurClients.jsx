@@ -3,8 +3,10 @@ import React from "react";
 import Clients from "../../constant/Clients.json";
 
 import Slider from "react-slick";
+import Link from "next/link";
 
-const OurClients = ({ award }) => {
+const OurClients = () => {
+
   var settings = {
     dots: false,
     infinite: true,
@@ -15,6 +17,7 @@ const OurClients = ({ award }) => {
     autoplaySpeed: 2000,
     cssEase: "linear",
   };
+
   return (
     <div>
       <section className="section section-xl bg-gray-100 text-md-left">
@@ -31,7 +34,7 @@ const OurClients = ({ award }) => {
 
           <Slider {...settings} style={{ backgroundColor: "white" }}>
             {Clients.map((item) => (
-              <a class="clients-classic-figure p-3" href="#">
+              <Link class="clients-classic-figure p-3" href="/our-clients">
                 <img
                   src={item?.logo}
                   style={{
@@ -41,7 +44,7 @@ const OurClients = ({ award }) => {
                     mixBlendMode: "color-burn",
                   }}
                 />
-              </a>
+              </Link>
             ))}
           </Slider>
         </div>
