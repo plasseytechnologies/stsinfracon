@@ -85,6 +85,24 @@ const Home = () => {
           <Header />
           <HeroBanner />
           {/* What we offer*/}
+          <div className="bg-default py-5 ">
+            <div className=" flex justify-center mb-4 px-5">
+              <h5 className="">The Best Civil Engineering Company in India</h5>
+            </div>
+            <div className=" flex justify-center px-10">
+              <p>
+                STS Infracon is committed to excellence in the field of{" "}
+                <b>civil engineering and construction</b>. As a reputed EPC
+                company, we provide a wide range of{" "}
+                <b>infrastructure construction </b>
+                services, from road and highway construction to railway,
+                substations, and LCNG gas station construction. With an
+                astounding track record of several dozen contracts with
+                government bodies and well-known private organisations, STS
+                Infracon is the <b>best civil engineering company in India.</b>
+              </p>
+            </div>
+          </div>
           <WeOffer />
           {/* Section CTA*/}*
           <CompanyCTA />
